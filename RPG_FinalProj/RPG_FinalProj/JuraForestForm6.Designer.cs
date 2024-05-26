@@ -70,7 +70,7 @@
             Player = new PictureBox();
             pictureBox39 = new PictureBox();
             pictureBox40 = new PictureBox();
-            merchant = new PictureBox();
+            Merchant = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -112,7 +112,7 @@
             ((System.ComponentModel.ISupportInitialize)Player).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox39).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox40).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)merchant).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Merchant).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -444,14 +444,18 @@
             pictureBox40.TabIndex = 40;
             pictureBox40.TabStop = false;
             // 
-            // merchant
+            // Merchant
             // 
-            merchant.BackColor = Color.Red;
-            merchant.Location = new Point(76, 496);
-            merchant.Name = "merchant";
-            merchant.Size = new Size(97, 93);
-            merchant.TabIndex = 41;
-            merchant.TabStop = false;
+            Merchant.BackColor = Color.Transparent;
+            Merchant.BackgroundImageLayout = ImageLayout.Stretch;
+            Merchant.Image = (Image)resources.GetObject("Merchant.Image");
+            Merchant.Location = new Point(53, 496);
+            Merchant.Name = "Merchant";
+            Merchant.Size = new Size(125, 124);
+            Merchant.SizeMode = PictureBoxSizeMode.StretchImage;
+            Merchant.TabIndex = 41;
+            Merchant.TabStop = false;
+            Merchant.Click += Merchant_Click;
             // 
             // JuraForestForm6
             // 
@@ -460,7 +464,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1424, 985);
-            Controls.Add(merchant);
+            Controls.Add(Merchant);
             Controls.Add(pictureBox40);
             Controls.Add(pictureBox39);
             Controls.Add(Player);
@@ -548,7 +552,7 @@
             ((System.ComponentModel.ISupportInitialize)Player).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox39).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox40).EndInit();
-            ((System.ComponentModel.ISupportInitialize)merchant).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Merchant).EndInit();
             ResumeLayout(false);
         }
 
@@ -595,6 +599,6 @@
         private PictureBox Player;
         private PictureBox pictureBox39;
         private PictureBox pictureBox40;
-        private PictureBox merchant;
+        private PictureBox Merchant;
     }
 }

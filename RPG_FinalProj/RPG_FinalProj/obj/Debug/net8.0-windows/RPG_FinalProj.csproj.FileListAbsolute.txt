@@ -25,3 +25,13 @@ E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\De
 E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.JuraForestForm8.resources
 E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.JuraForestForm9.resources
 E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.JuraForestCave.resources
+E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.CrestfallCityForm1.resources
+E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.CrestfallCityForm2.resources
+E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.CrestfallCityForm3.resources
+E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.CrestfallCityForm4.resources
+E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.CrestfallCityForm5.resources
+E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.CrestfallCityForm6.resources
+E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.CrestfallCityForm7.resources
+E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.CrestfallCityForm8.resources
+E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.CrestfallCityForm9.resources
+E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.CrestfallCityForm10.resources

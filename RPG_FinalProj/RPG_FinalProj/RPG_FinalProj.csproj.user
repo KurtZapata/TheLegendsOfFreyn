@@ -1,6 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="CrestfallCityForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CrestfallCityForm10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CrestfallCityForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CrestfallCityForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CrestfallCityForm4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CrestfallCityForm5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CrestfallCityForm6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CrestfallCityForm7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CrestfallCityForm8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CrestfallCityForm9.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="JuraForestCave.cs">
       <SubType>Form</SubType>
     </Compile>

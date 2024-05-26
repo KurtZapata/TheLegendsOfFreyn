@@ -95,5 +95,10 @@ namespace RPG_FinalProj
             }
 
         }
+
+        private void Merchant_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
