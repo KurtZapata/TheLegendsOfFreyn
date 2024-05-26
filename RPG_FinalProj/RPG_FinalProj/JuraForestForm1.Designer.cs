@@ -242,6 +242,7 @@
             // 
             // Player
             // 
+            Player.BackColor = SystemColors.ActiveCaption;
             Player.Location = new Point(123, 409);
             Player.Name = "Player";
             Player.Size = new Size(30, 27);

@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{1E7F046F-4190-423E-802A-DBB97B832CE1}|RPG_FinalProj\\RPG_FinalProj.csproj|solutionrelative:rpg_finalproj\\juraforestform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E7F046F-4190-423E-802A-DBB97B832CE1}|RPG_FinalProj\\RPG_FinalProj.csproj|e:\\github\\comprog_finalproj\\thelegendsoffreyn\\rpg_finalproj\\rpg_finalproj\\movementplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E7F046F-4190-423E-802A-DBB97B832CE1}|RPG_FinalProj\\RPG_FinalProj.csproj|E:\\GitHub\\ComProg_FinalProj\\TheLegendsOfFreyn\\RPG_FinalProj\\rpg_finalproj\\movementplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E7F046F-4190-423E-802A-DBB97B832CE1}|RPG_FinalProj\\RPG_FinalProj.csproj|solutionrelative:rpg_finalproj\\movementplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,8 +34,7 @@
               "RelativeToolTip": "RPG_FinalProj\\MovementPlayer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAIoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T14:03:39.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T14:03:39.667Z"
             },
             {
               "$type": "Document",
@@ -45,7 +44,7 @@
               "RelativeDocumentMoniker": "RPG_FinalProj\\JuraForestForm1.cs",
               "ToolTip": "E:\\GitHub\\ComProg_FinalProj\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\JuraForestForm1.cs",
               "RelativeToolTip": "RPG_FinalProj\\JuraForestForm1.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAowBkAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T11:05:40.8Z",
               "EditorCaption": ""
@@ -59,8 +58,7 @@
               "ToolTip": "E:\\GitHub\\ComProg_FinalProj\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\JuraForestForm1.cs [Design]",
               "RelativeToolTip": "RPG_FinalProj\\JuraForestForm1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T10:47:28.008Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-26T10:47:28.008Z"
             }
           ]
         }

@@ -5,8 +5,8 @@ namespace RPG_FinalProj
     public partial class JuraForestForm1 : Form
     {
 
-        int[,] obstacles = new int[100, 4];
-        PictureBox[] obstacle = new PictureBox[100];
+        int[,] obstacles = new int[24, 4];
+        PictureBox[] obstacle = new PictureBox[24];
         PictureBox[] mob = new PictureBox[3];
         int[,] moblocation = new int[2, 4];
         string[] mobnames = new string[2];
@@ -33,6 +33,7 @@ namespace RPG_FinalProj
         private void JuraForestForm1_Load(object sender, EventArgs e)
         {
             int counterObstacle = 0;
+            //naming of variable para hindi mano mano
             foreach (Control ctrl in Controls)
             {
                 if (ctrl.Name.StartsWith("obstacle"))
@@ -41,8 +42,11 @@ namespace RPG_FinalProj
                     counterObstacle++;
                 }
             }
+   
 
             int counterMob = 0;
+
+
             foreach (Control ctrl in Controls)
             {
                 if (ctrl.Name.StartsWith("mob"))
