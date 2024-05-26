@@ -46,6 +46,17 @@
             obstacle16 = new PictureBox();
             obstacle15 = new PictureBox();
             obstacle17 = new PictureBox();
+            Player = new PictureBox();
+            mob1 = new PictureBox();
+            mob2 = new PictureBox();
+            mob3 = new PictureBox();
+            obstacle18 = new PictureBox();
+            obstacle19 = new PictureBox();
+            obstacle20 = new PictureBox();
+            obstacle21 = new PictureBox();
+            obstacle23 = new PictureBox();
+            obstacle22 = new PictureBox();
+            obstacle24 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)obstacle2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)obstacle3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)obstacle1).BeginInit();
@@ -63,6 +74,17 @@
             ((System.ComponentModel.ISupportInitialize)obstacle16).BeginInit();
             ((System.ComponentModel.ISupportInitialize)obstacle15).BeginInit();
             ((System.ComponentModel.ISupportInitialize)obstacle17).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Player).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)obstacle18).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)obstacle19).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)obstacle20).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)obstacle21).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)obstacle23).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)obstacle22).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)obstacle24).BeginInit();
             SuspendLayout();
             // 
             // obstacle2
@@ -88,7 +110,7 @@
             obstacle1.BackColor = Color.Transparent;
             obstacle1.Location = new Point(0, 0);
             obstacle1.Name = "obstacle1";
-            obstacle1.Size = new Size(263, 345);
+            obstacle1.Size = new Size(211, 345);
             obstacle1.TabIndex = 2;
             obstacle1.TabStop = false;
             // 
@@ -122,18 +144,18 @@
             // obstacle4
             // 
             obstacle4.BackColor = Color.Transparent;
-            obstacle4.Location = new Point(960, 239);
+            obstacle4.Location = new Point(1018, 294);
             obstacle4.Name = "obstacle4";
-            obstacle4.Size = new Size(172, 218);
+            obstacle4.Size = new Size(114, 163);
             obstacle4.TabIndex = 6;
             obstacle4.TabStop = false;
             // 
             // obstacle10
             // 
             obstacle10.BackColor = Color.Transparent;
-            obstacle10.Location = new Point(960, 547);
+            obstacle10.Location = new Point(1018, 547);
             obstacle10.Name = "obstacle10";
-            obstacle10.Size = new Size(172, 186);
+            obstacle10.Size = new Size(114, 186);
             obstacle10.TabIndex = 7;
             obstacle10.TabStop = false;
             // 
@@ -142,7 +164,7 @@
             obstacle5.BackColor = Color.Transparent;
             obstacle5.Location = new Point(370, 308);
             obstacle5.Name = "obstacle5";
-            obstacle5.Size = new Size(347, 457);
+            obstacle5.Size = new Size(241, 457);
             obstacle5.TabIndex = 8;
             obstacle5.TabStop = false;
             // 
@@ -218,6 +240,98 @@
             obstacle17.TabIndex = 16;
             obstacle17.TabStop = false;
             // 
+            // Player
+            // 
+            Player.Location = new Point(123, 409);
+            Player.Name = "Player";
+            Player.Size = new Size(30, 27);
+            Player.TabIndex = 17;
+            Player.TabStop = false;
+            // 
+            // mob1
+            // 
+            mob1.BackColor = SystemColors.ActiveCaptionText;
+            mob1.Location = new Point(969, 161);
+            mob1.Name = "mob1";
+            mob1.Size = new Size(44, 50);
+            mob1.TabIndex = 18;
+            mob1.TabStop = false;
+            // 
+            // mob2
+            // 
+            mob2.BackColor = SystemColors.ActiveCaptionText;
+            mob2.Location = new Point(1040, 842);
+            mob2.Name = "mob2";
+            mob2.Size = new Size(44, 50);
+            mob2.TabIndex = 19;
+            mob2.TabStop = false;
+            // 
+            // mob3
+            // 
+            mob3.BackColor = SystemColors.ActiveCaptionText;
+            mob3.Location = new Point(544, 798);
+            mob3.Name = "mob3";
+            mob3.Size = new Size(44, 50);
+            mob3.TabIndex = 20;
+            mob3.TabStop = false;
+            // 
+            // obstacle18
+            // 
+            obstacle18.BackColor = Color.Transparent;
+            obstacle18.Location = new Point(584, 409);
+            obstacle18.Name = "obstacle18";
+            obstacle18.Size = new Size(100, 180);
+            obstacle18.TabIndex = 21;
+            obstacle18.TabStop = false;
+            // 
+            // obstacle19
+            // 
+            obstacle19.Location = new Point(617, 504);
+            obstacle19.Name = "obstacle19";
+            obstacle19.Size = new Size(96, 50);
+            obstacle19.TabIndex = 22;
+            obstacle19.TabStop = false;
+            // 
+            // obstacle20
+            // 
+            obstacle20.Location = new Point(988, 621);
+            obstacle20.Name = "obstacle20";
+            obstacle20.Size = new Size(96, 50);
+            obstacle20.TabIndex = 23;
+            obstacle20.TabStop = false;
+            // 
+            // obstacle21
+            // 
+            obstacle21.Location = new Point(988, 366);
+            obstacle21.Name = "obstacle21";
+            obstacle21.Size = new Size(96, 50);
+            obstacle21.TabIndex = 24;
+            obstacle21.TabStop = false;
+            // 
+            // obstacle23
+            // 
+            obstacle23.Location = new Point(1069, 252);
+            obstacle23.Name = "obstacle23";
+            obstacle23.Size = new Size(96, 50);
+            obstacle23.TabIndex = 25;
+            obstacle23.TabStop = false;
+            // 
+            // obstacle22
+            // 
+            obstacle22.Location = new Point(1004, 270);
+            obstacle22.Name = "obstacle22";
+            obstacle22.Size = new Size(96, 50);
+            obstacle22.TabIndex = 26;
+            obstacle22.TabStop = false;
+            // 
+            // obstacle24
+            // 
+            obstacle24.Location = new Point(162, 83);
+            obstacle24.Name = "obstacle24";
+            obstacle24.Size = new Size(96, 82);
+            obstacle24.TabIndex = 27;
+            obstacle24.TabStop = false;
+            // 
             // JuraForestForm1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -225,6 +339,17 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1424, 985);
+            Controls.Add(obstacle24);
+            Controls.Add(obstacle22);
+            Controls.Add(obstacle23);
+            Controls.Add(obstacle21);
+            Controls.Add(obstacle20);
+            Controls.Add(obstacle19);
+            Controls.Add(obstacle18);
+            Controls.Add(mob3);
+            Controls.Add(mob2);
+            Controls.Add(mob1);
+            Controls.Add(Player);
             Controls.Add(obstacle17);
             Controls.Add(obstacle15);
             Controls.Add(obstacle16);
@@ -245,6 +370,8 @@
             DoubleBuffered = true;
             Name = "JuraForestForm1";
             Text = "Form1";
+            Load += JuraForestForm1_Load;
+            KeyDown += JuraForestForm1_KeyDown_1;
             ((System.ComponentModel.ISupportInitialize)obstacle2).EndInit();
             ((System.ComponentModel.ISupportInitialize)obstacle3).EndInit();
             ((System.ComponentModel.ISupportInitialize)obstacle1).EndInit();
@@ -262,6 +389,17 @@
             ((System.ComponentModel.ISupportInitialize)obstacle16).EndInit();
             ((System.ComponentModel.ISupportInitialize)obstacle15).EndInit();
             ((System.ComponentModel.ISupportInitialize)obstacle17).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Player).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)obstacle18).EndInit();
+            ((System.ComponentModel.ISupportInitialize)obstacle19).EndInit();
+            ((System.ComponentModel.ISupportInitialize)obstacle20).EndInit();
+            ((System.ComponentModel.ISupportInitialize)obstacle21).EndInit();
+            ((System.ComponentModel.ISupportInitialize)obstacle23).EndInit();
+            ((System.ComponentModel.ISupportInitialize)obstacle22).EndInit();
+            ((System.ComponentModel.ISupportInitialize)obstacle24).EndInit();
             ResumeLayout(false);
         }
 
@@ -284,5 +422,16 @@
         private PictureBox obstacle16;
         private PictureBox obstacle15;
         private PictureBox obstacle17;
+        private PictureBox Player;
+        private PictureBox mob1;
+        private PictureBox mob2;
+        private PictureBox mob3;
+        private PictureBox obstacle18;
+        private PictureBox obstacle19;
+        private PictureBox obstacle20;
+        private PictureBox obstacle21;
+        private PictureBox obstacle23;
+        private PictureBox obstacle22;
+        private PictureBox obstacle24;
     }
 }
