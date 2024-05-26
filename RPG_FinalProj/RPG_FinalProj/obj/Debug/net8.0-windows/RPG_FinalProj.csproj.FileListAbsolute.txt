@@ -1,0 +1,17 @@
+E:\GitHub\ComProg_FinalProj\RPG_FinalProj\RPG_FinalProj\bin\Debug\net8.0-windows\RPG_FinalProj.exe
+E:\GitHub\ComProg_FinalProj\RPG_FinalProj\RPG_FinalProj\bin\Debug\net8.0-windows\RPG_FinalProj.deps.json
+E:\GitHub\ComProg_FinalProj\RPG_FinalProj\RPG_FinalProj\bin\Debug\net8.0-windows\RPG_FinalProj.runtimeconfig.json
+E:\GitHub\ComProg_FinalProj\RPG_FinalProj\RPG_FinalProj\bin\Debug\net8.0-windows\RPG_FinalProj.dll
+E:\GitHub\ComProg_FinalProj\RPG_FinalProj\RPG_FinalProj\bin\Debug\net8.0-windows\RPG_FinalProj.pdb
+E:\GitHub\ComProg_FinalProj\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.JuraForestForm1.resources
+E:\GitHub\ComProg_FinalProj\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.Properties.Resources.resources
+E:\GitHub\ComProg_FinalProj\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.csproj.GenerateResource.cache
+E:\GitHub\ComProg_FinalProj\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitHub\ComProg_FinalProj\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.AssemblyInfoInputs.cache
+E:\GitHub\ComProg_FinalProj\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.AssemblyInfo.cs
+E:\GitHub\ComProg_FinalProj\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.csproj.CoreCompileInputs.cache
+E:\GitHub\ComProg_FinalProj\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.dll
+E:\GitHub\ComProg_FinalProj\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\refint\RPG_FinalProj.dll
+E:\GitHub\ComProg_FinalProj\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.pdb
+E:\GitHub\ComProg_FinalProj\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.genruntimeconfig.cache
+E:\GitHub\ComProg_FinalProj\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\ref\RPG_FinalProj.dll
