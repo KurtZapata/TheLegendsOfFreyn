@@ -245,7 +245,7 @@
             Player.BackColor = SystemColors.ActiveCaption;
             Player.Location = new Point(123, 409);
             Player.Name = "Player";
-            Player.Size = new Size(30, 27);
+            Player.Size = new Size(35, 35);
             Player.TabIndex = 17;
             Player.TabStop = false;
             // 
@@ -254,7 +254,7 @@
             mob1.BackColor = SystemColors.ActiveCaptionText;
             mob1.Location = new Point(969, 161);
             mob1.Name = "mob1";
-            mob1.Size = new Size(44, 50);
+            mob1.Size = new Size(40, 40);
             mob1.TabIndex = 18;
             mob1.TabStop = false;
             // 
@@ -263,7 +263,7 @@
             mob2.BackColor = SystemColors.ActiveCaptionText;
             mob2.Location = new Point(1040, 842);
             mob2.Name = "mob2";
-            mob2.Size = new Size(44, 50);
+            mob2.Size = new Size(40, 40);
             mob2.TabIndex = 19;
             mob2.TabStop = false;
             // 
@@ -272,7 +272,7 @@
             mob3.BackColor = SystemColors.ActiveCaptionText;
             mob3.Location = new Point(544, 798);
             mob3.Name = "mob3";
-            mob3.Size = new Size(44, 50);
+            mob3.Size = new Size(40, 40);
             mob3.TabIndex = 20;
             mob3.TabStop = false;
             // 

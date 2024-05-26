@@ -17,6 +17,13 @@ namespace RPG_FinalProj
           
 
             InitializeComponent();
+         
+        }
+
+
+        private void JuraForestForm1_Load(object sender, EventArgs e)
+        {
+
             for (int i = 1; i <= 100; i++)
             {
                 Control control = this.Controls["obstacle" + i];
@@ -25,13 +32,6 @@ namespace RPG_FinalProj
                     ((PictureBox)control).BackColor = Color.Transparent;
                 }
             }
-
-
-        }
-
-
-        private void JuraForestForm1_Load(object sender, EventArgs e)
-        {
             int counterObstacle = 0;
             //naming of variable para hindi mano mano
             foreach (Control ctrl in Controls)
@@ -94,6 +94,5 @@ namespace RPG_FinalProj
             newPos[3] = Player.Location.Y + Player.Size.Height;
             newPosition.collisionChecker(newPos, moblocation, mobnames);
         }
-
     }
 }

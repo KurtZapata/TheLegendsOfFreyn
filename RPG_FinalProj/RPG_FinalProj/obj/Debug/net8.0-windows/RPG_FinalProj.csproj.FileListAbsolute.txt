@@ -17,3 +17,11 @@ E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\De
 E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.pdb
 E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.genruntimeconfig.cache
 E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\ref\RPG_FinalProj.dll
+E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.JuraForestForm3.resources
+E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.JuraForestForm4.resources
+E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.JuraForestForm5.resources
+E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.JuraForestForm6.resources
+E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.JuraForestForm7.resources
+E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.JuraForestForm8.resources
+E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.JuraForestForm9.resources
+E:\GitHub\ComProg_FinalProj\TheLegendsOfFreyn\RPG_FinalProj\RPG_FinalProj\obj\Debug\net8.0-windows\RPG_FinalProj.JuraForestCave.resources
