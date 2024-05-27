@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "E:\\GitHub\\ComProg_FinalProj\\TheLegendsOfFreyn\\RPG_FinalProj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E7F046F-4190-423E-802A-DBB97B832CE1}|RPG_FinalProj\\RPG_FinalProj.csproj|e:\\github\\comprog_finalproj\\thelegendsoffreyn\\rpg_finalproj\\rpg_finalproj\\juraforestform6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1E7F046F-4190-423E-802A-DBB97B832CE1}|RPG_FinalProj\\RPG_FinalProj.csproj|solutionrelative:rpg_finalproj\\juraforestform6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1E7F046F-4190-423E-802A-DBB97B832CE1}|RPG_FinalProj\\RPG_FinalProj.csproj|e:\\github\\comprog_finalproj\\thelegendsoffreyn\\rpg_finalproj\\rpg_finalproj\\crestfallcityform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7F046F-4190-423E-802A-DBB97B832CE1}|RPG_FinalProj\\RPG_FinalProj.csproj|solutionrelative:rpg_finalproj\\crestfallcityform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E7F046F-4190-423E-802A-DBB97B832CE1}|RPG_FinalProj\\RPG_FinalProj.csproj|e:\\github\\comprog_finalproj\\thelegendsoffreyn\\rpg_finalproj\\rpg_finalproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E7F046F-4190-423E-802A-DBB97B832CE1}|RPG_FinalProj\\RPG_FinalProj.csproj|e:\\github\\comprog_finalproj\\thelegendsoffreyn\\rpg_finalproj\\rpg_finalproj\\crestfallcityform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1E7F046F-4190-423E-802A-DBB97B832CE1}|RPG_FinalProj\\RPG_FinalProj.csproj|solutionrelative:rpg_finalproj\\crestfallcityform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7F046F-4190-423E-802A-DBB97B832CE1}|RPG_FinalProj\\RPG_FinalProj.csproj|E:\\GitHub\\ComProg_FinalProj\\TheLegendsOfFreyn\\RPG_FinalProj\\rpg_finalproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E7F046F-4190-423E-802A-DBB97B832CE1}|RPG_FinalProj\\RPG_FinalProj.csproj|solutionrelative:rpg_finalproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 212,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\GitHub\\ComProg_FinalProj\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\Program.cs",
               "RelativeDocumentMoniker": "RPG_FinalProj\\Program.cs",
               "ToolTip": "E:\\GitHub\\ComProg_FinalProj\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\Program.cs",
               "RelativeToolTip": "RPG_FinalProj\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T14:47:08.195Z",
               "IsPinned": true,
@@ -37,13 +41,47 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "JuraForestForm6.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\ComProg_FinalProj\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\JuraForestForm6.cs",
-              "RelativeDocumentMoniker": "RPG_FinalProj\\JuraForestForm6.cs",
-              "ToolTip": "E:\\GitHub\\ComProg_FinalProj\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\JuraForestForm6.cs [Design]",
-              "RelativeToolTip": "RPG_FinalProj\\JuraForestForm6.cs [Design]",
+              "Title": "CrestfallCityForm1.cs",
+              "DocumentMoniker": "E:\\GitHub\\ComProg_FinalProj\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\CrestfallCityForm1.cs",
+              "RelativeDocumentMoniker": "RPG_FinalProj\\CrestfallCityForm1.cs",
+              "ToolTip": "E:\\GitHub\\ComProg_FinalProj\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\CrestfallCityForm1.cs",
+              "RelativeToolTip": "RPG_FinalProj\\CrestfallCityForm1.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAwGYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T18:53:02.947Z",
+              "WhenOpened": "2024-05-27T06:03:12.287Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "347abe3a-d97b-4b1a-91bb-cc27bd1d1ed7",
+        "Display": 0,
+        "X": 421,
+        "Y": -49,
+        "Width": 1377,
+        "Height": 686,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CrestfallCityForm1.cs [Design]",
+              "DocumentMoniker": "E:\\GitHub\\ComProg_FinalProj\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\CrestfallCityForm1.cs",
+              "RelativeDocumentMoniker": "RPG_FinalProj\\CrestfallCityForm1.cs",
+              "ToolTip": "E:\\GitHub\\ComProg_FinalProj\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\CrestfallCityForm1.cs [Design]",
+              "RelativeToolTip": "RPG_FinalProj\\CrestfallCityForm1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:01:52.683Z",
               "EditorCaption": " [Design]"
             }
           ]

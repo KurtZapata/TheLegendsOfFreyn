@@ -57,6 +57,9 @@
             pictureBox26 = new PictureBox();
             puzzle1 = new PictureBox();
             Player = new PictureBox();
+            mob1 = new PictureBox();
+            mob2 = new PictureBox();
+            pictureBox27 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -85,6 +88,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox26).BeginInit();
             ((System.ComponentModel.ISupportInitialize)puzzle1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Player).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox27).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -307,11 +313,45 @@
             // Player
             // 
             Player.BackColor = SystemColors.MenuHighlight;
-            Player.Location = new Point(208, 481);
+            Player.Location = new Point(147, 490);
             Player.Name = "Player";
             Player.Size = new Size(35, 35);
             Player.TabIndex = 27;
             Player.TabStop = false;
+            // 
+            // mob1
+            // 
+            mob1.AccessibleName = "TeleportBottom";
+            mob1.BackColor = Color.Transparent;
+            mob1.BackgroundImageLayout = ImageLayout.Stretch;
+            mob1.Image = (Image)resources.GetObject("mob1.Image");
+            mob1.Location = new Point(674, 895);
+            mob1.Name = "mob1";
+            mob1.Size = new Size(89, 78);
+            mob1.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob1.TabIndex = 29;
+            mob1.TabStop = false;
+            // 
+            // mob2
+            // 
+            mob2.AccessibleName = "TeleportLeft";
+            mob2.BackColor = Color.Transparent;
+            mob2.BackgroundImageLayout = ImageLayout.Stretch;
+            mob2.Image = (Image)resources.GetObject("mob2.Image");
+            mob2.Location = new Point(0, 468);
+            mob2.Name = "mob2";
+            mob2.Size = new Size(89, 78);
+            mob2.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob2.TabIndex = 30;
+            mob2.TabStop = false;
+            // 
+            // pictureBox27
+            // 
+            pictureBox27.Location = new Point(328, 972);
+            pictureBox27.Name = "pictureBox27";
+            pictureBox27.Size = new Size(584, 20);
+            pictureBox27.TabIndex = 31;
+            pictureBox27.TabStop = false;
             // 
             // JuraForestForm2
             // 
@@ -320,6 +360,9 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1424, 985);
+            Controls.Add(pictureBox27);
+            Controls.Add(mob2);
+            Controls.Add(mob1);
             Controls.Add(Player);
             Controls.Add(puzzle1);
             Controls.Add(pictureBox26);
@@ -381,6 +424,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox26).EndInit();
             ((System.ComponentModel.ISupportInitialize)puzzle1).EndInit();
             ((System.ComponentModel.ISupportInitialize)Player).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox27).EndInit();
             ResumeLayout(false);
         }
 
@@ -414,5 +460,8 @@
         private PictureBox pictureBox26;
         private PictureBox puzzle1;
         private PictureBox Player;
+        private PictureBox mob1;
+        private PictureBox mob2;
+        private PictureBox pictureBox27;
     }
 }

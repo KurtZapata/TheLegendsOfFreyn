@@ -51,6 +51,10 @@
             pictureBox19 = new PictureBox();
             pictureBox20 = new PictureBox();
             Quest = new PictureBox();
+            pictureBox21 = new PictureBox();
+            mob1 = new PictureBox();
+            mob2 = new PictureBox();
+            pictureBox23 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)Player).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -73,12 +77,16 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox19).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Quest).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox21).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox23).BeginInit();
             SuspendLayout();
             // 
             // Player
             // 
             Player.BackColor = SystemColors.ActiveCaption;
-            Player.Location = new Point(71, 476);
+            Player.Location = new Point(95, 455);
             Player.Name = "Player";
             Player.Size = new Size(35, 35);
             Player.TabIndex = 0;
@@ -253,6 +261,48 @@
             Quest.TabIndex = 21;
             Quest.TabStop = false;
             // 
+            // pictureBox21
+            // 
+            pictureBox21.Location = new Point(-6, 250);
+            pictureBox21.Name = "pictureBox21";
+            pictureBox21.Size = new Size(25, 441);
+            pictureBox21.TabIndex = 22;
+            pictureBox21.TabStop = false;
+            // 
+            // mob1
+            // 
+            mob1.AccessibleName = "TeleportLeft";
+            mob1.BackColor = Color.Transparent;
+            mob1.BackgroundImageLayout = ImageLayout.Stretch;
+            mob1.Image = (Image)resources.GetObject("mob1.Image");
+            mob1.Location = new Point(-6, 432);
+            mob1.Name = "mob1";
+            mob1.Size = new Size(89, 78);
+            mob1.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob1.TabIndex = 57;
+            mob1.TabStop = false;
+            // 
+            // mob2
+            // 
+            mob2.AccessibleName = "TeleportRight";
+            mob2.BackColor = Color.Transparent;
+            mob2.BackgroundImageLayout = ImageLayout.Stretch;
+            mob2.Image = (Image)resources.GetObject("mob2.Image");
+            mob2.Location = new Point(1340, 432);
+            mob2.Name = "mob2";
+            mob2.Size = new Size(89, 78);
+            mob2.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob2.TabIndex = 58;
+            mob2.TabStop = false;
+            // 
+            // pictureBox23
+            // 
+            pictureBox23.Location = new Point(1404, 276);
+            pictureBox23.Name = "pictureBox23";
+            pictureBox23.Size = new Size(25, 523);
+            pictureBox23.TabIndex = 59;
+            pictureBox23.TabStop = false;
+            // 
             // CrestfallCityForm1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -260,6 +310,10 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1424, 985);
+            Controls.Add(mob2);
+            Controls.Add(pictureBox23);
+            Controls.Add(mob1);
+            Controls.Add(pictureBox21);
             Controls.Add(Quest);
             Controls.Add(pictureBox20);
             Controls.Add(pictureBox19);
@@ -282,7 +336,7 @@
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(Player);
-            Cursor = Cursors.No;
+            Cursor = Cursors.Arrow;
             DoubleBuffered = true;
             Name = "CrestfallCityForm1";
             Text = "CrestfallCityForm1";
@@ -310,6 +364,10 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox19).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox20).EndInit();
             ((System.ComponentModel.ISupportInitialize)Quest).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox21).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox23).EndInit();
             ResumeLayout(false);
         }
 
@@ -337,5 +395,9 @@
         private PictureBox pictureBox19;
         private PictureBox pictureBox20;
         private PictureBox Quest;
+        private PictureBox pictureBox21;
+        private PictureBox mob1;
+        private PictureBox mob2;
+        private PictureBox pictureBox23;
     }
 }

@@ -57,6 +57,9 @@
             obstacle23 = new PictureBox();
             obstacle22 = new PictureBox();
             obstacle24 = new PictureBox();
+            mob4 = new PictureBox();
+            mob5 = new PictureBox();
+            obstacle25 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)obstacle2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)obstacle3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)obstacle1).BeginInit();
@@ -85,6 +88,9 @@
             ((System.ComponentModel.ISupportInitialize)obstacle23).BeginInit();
             ((System.ComponentModel.ISupportInitialize)obstacle22).BeginInit();
             ((System.ComponentModel.ISupportInitialize)obstacle24).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)obstacle25).BeginInit();
             SuspendLayout();
             // 
             // obstacle2
@@ -243,7 +249,7 @@
             // Player
             // 
             Player.BackColor = SystemColors.ActiveCaption;
-            Player.Location = new Point(123, 409);
+            Player.Location = new Point(700, 830);
             Player.Name = "Player";
             Player.Size = new Size(35, 35);
             Player.TabIndex = 17;
@@ -333,6 +339,41 @@
             obstacle24.TabIndex = 27;
             obstacle24.TabStop = false;
             // 
+            // mob4
+            // 
+            mob4.AccessibleName = "TeleportRight";
+            mob4.BackColor = Color.Transparent;
+            mob4.BackgroundImageLayout = ImageLayout.Stretch;
+            mob4.Image = (Image)resources.GetObject("mob4.Image");
+            mob4.Location = new Point(1323, 463);
+            mob4.Name = "mob4";
+            mob4.Size = new Size(89, 78);
+            mob4.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob4.TabIndex = 28;
+            mob4.TabStop = false;
+            // 
+            // mob5
+            // 
+            mob5.AccessibleName = "TeleportBottom";
+            mob5.BackColor = Color.Transparent;
+            mob5.BackgroundImageLayout = ImageLayout.Stretch;
+            mob5.Image = (Image)resources.GetObject("mob5.Image");
+            mob5.Location = new Point(678, 883);
+            mob5.Name = "mob5";
+            mob5.Size = new Size(89, 78);
+            mob5.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob5.TabIndex = 29;
+            mob5.TabStop = false;
+            // 
+            // obstacle25
+            // 
+            obstacle25.BackColor = Color.Transparent;
+            obstacle25.Location = new Point(274, 955);
+            obstacle25.Name = "obstacle25";
+            obstacle25.Size = new Size(858, 34);
+            obstacle25.TabIndex = 30;
+            obstacle25.TabStop = false;
+            // 
             // JuraForestForm1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -340,6 +381,9 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1424, 985);
+            Controls.Add(obstacle25);
+            Controls.Add(mob5);
+            Controls.Add(mob4);
             Controls.Add(obstacle24);
             Controls.Add(obstacle22);
             Controls.Add(obstacle23);
@@ -401,6 +445,9 @@
             ((System.ComponentModel.ISupportInitialize)obstacle23).EndInit();
             ((System.ComponentModel.ISupportInitialize)obstacle22).EndInit();
             ((System.ComponentModel.ISupportInitialize)obstacle24).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)obstacle25).EndInit();
             ResumeLayout(false);
         }
 
@@ -434,5 +481,8 @@
         private PictureBox obstacle23;
         private PictureBox obstacle22;
         private PictureBox obstacle24;
+        private PictureBox mob4;
+        private PictureBox mob5;
+        private PictureBox obstacle25;
     }
 }

@@ -12,21 +12,99 @@ namespace RPG_FinalProj
 {
     public partial class JuraForestForm5 : Form
     {
-        int[,] obstacles = new int[31, 4];
-        PictureBox[] obstacle = new PictureBox[31];
+        private readonly LocItems _items;
+
+        int[,] obstacles = new int[32, 4];
+        PictureBox[] obstacle = new PictureBox[32];
         PictureBox[] mob = new PictureBox[3];
-        int[,] moblocation = new int[0, 4];
-        string[] mobnames = new string[2];
+        int[,] moblocation = new int[3, 4];
+        string[] mobnames = new string[3];
 
         public JuraForestForm5()
         {
             InitializeComponent();
+            _items = Program.items;
+        }
 
-          
+        private void TeleportChecker(int[] newPosition, int[,] moblocation, string[] mob)
+        {
+            for (int i = 0; i < moblocation.GetLength(0); i++)
+            {
+                if ((newPosition[1] <= moblocation[i, 3] + 5 && newPosition[1] >= moblocation[i, 1] - 5) &&
+                    ((newPosition[0] > moblocation[i, 0] && newPosition[2] < moblocation[i, 2]) ||
+                    (newPosition[0] <= moblocation[i, 0] && newPosition[2] >= moblocation[i, 0]) ||
+                    (newPosition[2] >= moblocation[i, 2] && newPosition[0] <= moblocation[i, 2])))
+                {
+                    if (mob[i] == "TeleportTop")
+                    {
+                        Program.items.location[0] = 820;
+                        Program.items.location[1] = 845;
+                        JuraForestForm3 JFF = new JuraForestForm3();
+                        this.Hide();
+                        JFF.ShowDialog();
+                        this.Close();
+                        break;
+                    }
+                    break;
+                }
+
+                else if (newPosition[0] <= moblocation[i, 2] + 5 && newPosition[0] >= moblocation[i, 0] - 5 &&
+                   ((newPosition[1] > moblocation[i, 1] && newPosition[3] < moblocation[i, 3]) ||
+                   (newPosition[1] <= moblocation[i, 1] && newPosition[3] >= moblocation[i, 1]) ||
+                   (newPosition[3] >= moblocation[i, 3] && newPosition[1] <= moblocation[i, 3])))
+                {
+                    if (mob[i] == "TeleportLeft")
+                    {
+
+                        Program.items.location[0] = 1250;
+                        Program.items.location[1] = 475;
+                        JuraForestCave JFF = new JuraForestCave();
+                        this.Hide();
+                        JFF.ShowDialog();
+                        this.Close();
+                    }
+                    break;
+                }
+
+                else if (newPosition[3] >= moblocation[i, 1] - 5 && newPosition[3] <= moblocation[i, 3] + 5 &&
+                   ((newPosition[0] > moblocation[i, 0] && newPosition[2] < moblocation[i, 2]) ||
+                   (newPosition[0] <= moblocation[i, 0] && newPosition[2] >= moblocation[i, 0]) ||
+                   (newPosition[2] >= moblocation[i, 2] && newPosition[0] <= moblocation[i, 2])))
+                {
+                    if (mob[i] == "TeleportBottom")
+                    {
+                        Program.items.location[0] = 690;
+                        Program.items.location[1] = 100;
+                        JuraForestForm6 JFF = new JuraForestForm6();
+                        this.Hide();
+                        JFF.ShowDialog();
+                        this.Close();
+                    }
+                    break;
+                }
+
+                else if (newPosition[2] >= moblocation[i, 0] - 5 && newPosition[2] <= moblocation[i, 2] + 5 &&
+                   ((newPosition[1] > moblocation[i, 1] && newPosition[3] < moblocation[i, 3]) ||
+                   (newPosition[1] <= moblocation[i, 1] && newPosition[3] >= moblocation[i, 1]) ||
+                   (newPosition[3] >= moblocation[i, 3] && newPosition[1] <= moblocation[i, 3])))
+                {
+                    if (mob[i] == "TeleportRight")
+                    {
+                        Program.items.location[0] = 718;
+                        Program.items.location[1] = 98;
+                        JuraForestForm4 JFF = new JuraForestForm4();
+                        this.Hide();
+                        JFF.ShowDialog();
+                        this.Close();
+                    }
+                    break;
+                }
+            }
         }
 
         private void JuraForestForm5_Load(object sender, EventArgs e)
         {
+            Player.Location = new Point(Program.items.location[0], Program.items.location[1]);
 
             for (int i = 1; i <= 100; i++)
             {
@@ -96,6 +174,20 @@ namespace RPG_FinalProj
             newPos[2] = Player.Location.X + Player.Size.Width;
             newPos[3] = Player.Location.Y + Player.Size.Height;
             newPosition.collisionChecker(newPos, moblocation, mobnames);
+            TeleportChecker(newPos, moblocation, mobnames);
+            InteractionChecker();
+        }
+        int entityType = 0;
+        private void InteractionChecker()
+        {
+            if (entityType == 1)
+            {
+                MessageBox.Show("Combat");
+            }
+            else if (entityType == 2)
+            {
+
+            }
         }
     }
 }

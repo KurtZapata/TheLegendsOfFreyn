@@ -58,6 +58,10 @@
             pictureBox27 = new PictureBox();
             SlimeBoss = new PictureBox();
             Player = new PictureBox();
+            mob1 = new PictureBox();
+            mob2 = new PictureBox();
+            pictureBox28 = new PictureBox();
+            pictureBox29 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -87,6 +91,10 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox27).BeginInit();
             ((System.ComponentModel.ISupportInitialize)SlimeBoss).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Player).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox28).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox29).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -317,11 +325,53 @@
             // Player
             // 
             Player.BackColor = SystemColors.ActiveCaption;
-            Player.Location = new Point(93, 378);
+            Player.Location = new Point(1282, 467);
             Player.Name = "Player";
             Player.Size = new Size(35, 35);
             Player.TabIndex = 27;
             Player.TabStop = false;
+            // 
+            // mob1
+            // 
+            mob1.AccessibleName = "TeleportLeft";
+            mob1.BackColor = Color.Transparent;
+            mob1.BackgroundImageLayout = ImageLayout.Stretch;
+            mob1.Image = (Image)resources.GetObject("mob1.Image");
+            mob1.Location = new Point(42, 428);
+            mob1.Name = "mob1";
+            mob1.Size = new Size(89, 78);
+            mob1.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob1.TabIndex = 56;
+            mob1.TabStop = false;
+            // 
+            // mob2
+            // 
+            mob2.AccessibleName = "TeleportRight";
+            mob2.BackColor = Color.Transparent;
+            mob2.BackgroundImageLayout = ImageLayout.Stretch;
+            mob2.Image = (Image)resources.GetObject("mob2.Image");
+            mob2.Location = new Point(1323, 438);
+            mob2.Name = "mob2";
+            mob2.Size = new Size(89, 78);
+            mob2.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob2.TabIndex = 57;
+            mob2.TabStop = false;
+            // 
+            // pictureBox28
+            // 
+            pictureBox28.Location = new Point(1396, 73);
+            pictureBox28.Name = "pictureBox28";
+            pictureBox28.Size = new Size(90, 875);
+            pictureBox28.TabIndex = 58;
+            pictureBox28.TabStop = false;
+            // 
+            // pictureBox29
+            // 
+            pictureBox29.Location = new Point(-54, 98);
+            pictureBox29.Name = "pictureBox29";
+            pictureBox29.Size = new Size(90, 875);
+            pictureBox29.TabIndex = 59;
+            pictureBox29.TabStop = false;
             // 
             // JuraForestForm9
             // 
@@ -330,6 +380,10 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1424, 985);
+            Controls.Add(pictureBox29);
+            Controls.Add(pictureBox28);
+            Controls.Add(mob2);
+            Controls.Add(mob1);
             Controls.Add(Player);
             Controls.Add(SlimeBoss);
             Controls.Add(pictureBox27);
@@ -393,6 +447,10 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox27).EndInit();
             ((System.ComponentModel.ISupportInitialize)SlimeBoss).EndInit();
             ((System.ComponentModel.ISupportInitialize)Player).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox28).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox29).EndInit();
             ResumeLayout(false);
         }
 
@@ -427,5 +485,9 @@
         private PictureBox pictureBox27;
         private PictureBox SlimeBoss;
         private PictureBox Player;
+        private PictureBox mob1;
+        private PictureBox mob2;
+        private PictureBox pictureBox28;
+        private PictureBox pictureBox29;
     }
 }

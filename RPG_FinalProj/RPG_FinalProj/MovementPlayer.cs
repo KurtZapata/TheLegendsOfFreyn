@@ -82,12 +82,12 @@ namespace RPG_FinalProj
             return newPosition;
         }
 
-        public void collisionChecker(int[] newPosition, int[,] moblocation, string[] mob)
+        public int collisionChecker(int[] newPosition, int[,] moblocation, string[] mob)
         {
 
             for (int i = 0; i < moblocation.GetLength(0); i++)
             {
-                if ((newPosition[1] <= moblocation[i, 3] + 15 && newPosition[1] >= moblocation[i, 1] - 15) &&
+                if ((newPosition[1] <= moblocation[i, 3] + 5 && newPosition[1] >= moblocation[i, 1] - 5) &&
                     ((newPosition[0] > moblocation[i, 0] && newPosition[2] < moblocation[i, 2]) ||
                     (newPosition[0] <= moblocation[i, 0] && newPosition[2] >= moblocation[i, 0]) ||
                     (newPosition[2] >= moblocation[i, 2] && newPosition[0] <= moblocation[i, 2])))
@@ -95,12 +95,16 @@ namespace RPG_FinalProj
                     if (mob[i] == "Goblin")
                     {
                         MessageBox.Show("GOBLIN HEHE");
+                        return 1;
                     }
-
+                    else if (mob[i] == "Teleport")
+                    {
+                        return 2;
+                    }
                     break;
                 }
 
-                else if (newPosition[0] <= moblocation[i, 2] + 15 && newPosition[0] >= moblocation[i, 0] - 15 &&
+                else if (newPosition[0] <= moblocation[i, 2] + 5 && newPosition[0] >= moblocation[i, 0] - 5 &&
                    ((newPosition[1] > moblocation[i, 1] && newPosition[3] < moblocation[i, 3]) ||
                    (newPosition[1] <= moblocation[i, 1] && newPosition[3] >= moblocation[i, 1]) ||
                    (newPosition[3] >= moblocation[i, 3] && newPosition[1] <= moblocation[i, 3])))
@@ -108,11 +112,16 @@ namespace RPG_FinalProj
                     if (mob[i] == "Goblin")
                     {
                         MessageBox.Show("GOBLIN HEHE");
+                        return 1;
+                    }
+                    else if (mob[i] == "Teleport")
+                    {
+                        return 2;
                     }
                     break;
                 }
 
-                else if (newPosition[3] >= moblocation[i, 1] - 15 && newPosition[3] <= moblocation[i, 3] + 15 &&
+                else if (newPosition[3] >= moblocation[i, 1] - 5 && newPosition[3] <= moblocation[i, 3] + 5 &&
                    ((newPosition[0] > moblocation[i, 0] && newPosition[2] < moblocation[i, 2]) ||
                    (newPosition[0] <= moblocation[i, 0] && newPosition[2] >= moblocation[i, 0]) ||
                    (newPosition[2] >= moblocation[i, 2] && newPosition[0] <= moblocation[i, 2])))
@@ -120,11 +129,16 @@ namespace RPG_FinalProj
                     if (mob[i] == "Goblin")
                     {
                         MessageBox.Show("GOBLIN HEHE");
+                        return 1;
+                    }
+                    else if (mob[i] == "Teleport")
+                    {
+                        return 2;
                     }
                     break;
                 }
 
-                else if (newPosition[2] >= moblocation[i, 0] - 15 && newPosition[2] <= moblocation[i, 2] + 15 &&
+                else if (newPosition[2] >= moblocation[i, 0] - 5 && newPosition[2] <= moblocation[i, 2] + 5 &&
                    ((newPosition[1] > moblocation[i, 1] && newPosition[3] < moblocation[i, 3]) ||
                    (newPosition[1] <= moblocation[i, 1] && newPosition[3] >= moblocation[i, 1]) ||
                    (newPosition[3] >= moblocation[i, 3] && newPosition[1] <= moblocation[i, 3])))
@@ -132,10 +146,16 @@ namespace RPG_FinalProj
                     if (mob[i] == "Goblin")
                     {
                         MessageBox.Show("GOBLIN HEHE");
+                        return 1;
+                    }
+                    else if (mob[i] == "Teleport")
+                    {
+                        return 2;
                     }
                     break;
                 }
             }
+            return 0;
         }
     }
 }

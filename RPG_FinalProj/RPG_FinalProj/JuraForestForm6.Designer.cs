@@ -71,6 +71,8 @@
             pictureBox39 = new PictureBox();
             pictureBox40 = new PictureBox();
             Merchant = new PictureBox();
+            mob1 = new PictureBox();
+            mob2 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -113,6 +115,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox39).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox40).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Merchant).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -149,9 +153,9 @@
             // 
             // pictureBox5
             // 
-            pictureBox5.Location = new Point(1061, -1);
+            pictureBox5.Location = new Point(433, -1);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(363, 52);
+            pictureBox5.Size = new Size(991, 52);
             pictureBox5.TabIndex = 4;
             pictureBox5.TabStop = false;
             // 
@@ -191,7 +195,7 @@
             // 
             pictureBox10.Location = new Point(386, 359);
             pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(97, 157);
+            pictureBox10.Size = new Size(97, 145);
             pictureBox10.TabIndex = 9;
             pictureBox10.TabStop = false;
             // 
@@ -422,7 +426,7 @@
             // Player
             // 
             Player.BackColor = SystemColors.ActiveCaption;
-            Player.Location = new Point(682, 93);
+            Player.Location = new Point(690, 840);
             Player.Name = "Player";
             Player.Size = new Size(35, 35);
             Player.TabIndex = 38;
@@ -438,9 +442,9 @@
             // 
             // pictureBox40
             // 
-            pictureBox40.Location = new Point(242, 941);
+            pictureBox40.Location = new Point(242, 969);
             pictureBox40.Name = "pictureBox40";
-            pictureBox40.Size = new Size(239, 55);
+            pictureBox40.Size = new Size(749, 27);
             pictureBox40.TabIndex = 40;
             pictureBox40.TabStop = false;
             // 
@@ -457,6 +461,32 @@
             Merchant.TabStop = false;
             Merchant.Click += Merchant_Click;
             // 
+            // mob1
+            // 
+            mob1.AccessibleName = "TeleportTop";
+            mob1.BackColor = Color.Transparent;
+            mob1.BackgroundImageLayout = ImageLayout.Stretch;
+            mob1.Image = (Image)resources.GetObject("mob1.Image");
+            mob1.Location = new Point(664, 12);
+            mob1.Name = "mob1";
+            mob1.Size = new Size(89, 78);
+            mob1.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob1.TabIndex = 53;
+            mob1.TabStop = false;
+            // 
+            // mob2
+            // 
+            mob2.AccessibleName = "TeleportBottom";
+            mob2.BackColor = Color.Transparent;
+            mob2.BackgroundImageLayout = ImageLayout.Stretch;
+            mob2.Image = (Image)resources.GetObject("mob2.Image");
+            mob2.Location = new Point(664, 885);
+            mob2.Name = "mob2";
+            mob2.Size = new Size(89, 78);
+            mob2.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob2.TabIndex = 54;
+            mob2.TabStop = false;
+            // 
             // JuraForestForm6
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -464,6 +494,8 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1424, 985);
+            Controls.Add(mob2);
+            Controls.Add(mob1);
             Controls.Add(Merchant);
             Controls.Add(pictureBox40);
             Controls.Add(pictureBox39);
@@ -553,6 +585,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox39).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox40).EndInit();
             ((System.ComponentModel.ISupportInitialize)Merchant).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).EndInit();
             ResumeLayout(false);
         }
 
@@ -600,5 +634,7 @@
         private PictureBox pictureBox39;
         private PictureBox pictureBox40;
         private PictureBox Merchant;
+        private PictureBox mob1;
+        private PictureBox mob2;
     }
 }

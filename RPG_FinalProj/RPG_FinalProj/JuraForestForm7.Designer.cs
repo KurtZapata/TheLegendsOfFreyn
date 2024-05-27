@@ -71,6 +71,8 @@
             pictureBox40 = new PictureBox();
             pictureBox26 = new PictureBox();
             sideQuest = new PictureBox();
+            mob1 = new PictureBox();
+            mob2 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)Player).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -113,12 +115,14 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox40).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox26).BeginInit();
             ((System.ComponentModel.ISupportInitialize)sideQuest).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).BeginInit();
             SuspendLayout();
             // 
             // Player
             // 
             Player.BackColor = SystemColors.ActiveCaption;
-            Player.Location = new Point(697, 85);
+            Player.Location = new Point(1267, 478);
             Player.Name = "Player";
             Player.Size = new Size(35, 35);
             Player.TabIndex = 0;
@@ -248,7 +252,7 @@
             // 
             pictureBox16.Location = new Point(820, 207);
             pictureBox16.Name = "pictureBox16";
-            pictureBox16.Size = new Size(100, 126);
+            pictureBox16.Size = new Size(100, 108);
             pictureBox16.TabIndex = 16;
             pictureBox16.TabStop = false;
             // 
@@ -422,17 +426,17 @@
             // 
             // pictureBox39
             // 
-            pictureBox39.Location = new Point(1373, -2);
+            pictureBox39.Location = new Point(1402, -2);
             pictureBox39.Name = "pictureBox39";
-            pictureBox39.Size = new Size(60, 393);
+            pictureBox39.Size = new Size(31, 685);
             pictureBox39.TabIndex = 38;
             pictureBox39.TabStop = false;
             // 
             // pictureBox40
             // 
-            pictureBox40.Location = new Point(860, -3);
+            pictureBox40.Location = new Point(68, -29);
             pictureBox40.Name = "pictureBox40";
-            pictureBox40.Size = new Size(515, 51);
+            pictureBox40.Size = new Size(1374, 51);
             pictureBox40.TabIndex = 39;
             pictureBox40.TabStop = false;
             // 
@@ -453,6 +457,32 @@
             sideQuest.TabIndex = 40;
             sideQuest.TabStop = false;
             // 
+            // mob1
+            // 
+            mob1.AccessibleName = "TeleportTop";
+            mob1.BackColor = Color.Transparent;
+            mob1.BackgroundImageLayout = ImageLayout.Stretch;
+            mob1.Image = (Image)resources.GetObject("mob1.Image");
+            mob1.Location = new Point(697, 12);
+            mob1.Name = "mob1";
+            mob1.Size = new Size(89, 78);
+            mob1.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob1.TabIndex = 54;
+            mob1.TabStop = false;
+            // 
+            // mob2
+            // 
+            mob2.AccessibleName = "TeleportRight";
+            mob2.BackColor = Color.Transparent;
+            mob2.BackgroundImageLayout = ImageLayout.Stretch;
+            mob2.Image = (Image)resources.GetObject("mob2.Image");
+            mob2.Location = new Point(1323, 462);
+            mob2.Name = "mob2";
+            mob2.Size = new Size(89, 78);
+            mob2.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob2.TabIndex = 55;
+            mob2.TabStop = false;
+            // 
             // JuraForestForm7
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -460,6 +490,8 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1424, 985);
+            Controls.Add(mob2);
+            Controls.Add(mob1);
             Controls.Add(sideQuest);
             Controls.Add(pictureBox40);
             Controls.Add(pictureBox39);
@@ -549,6 +581,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox40).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox26).EndInit();
             ((System.ComponentModel.ISupportInitialize)sideQuest).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).EndInit();
             ResumeLayout(false);
         }
 
@@ -596,5 +630,7 @@
         private PictureBox pictureBox40;
         private PictureBox pictureBox26;
         private PictureBox sideQuest;
+        private PictureBox mob1;
+        private PictureBox mob2;
     }
 }
