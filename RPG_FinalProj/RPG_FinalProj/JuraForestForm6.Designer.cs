@@ -70,9 +70,56 @@
             Player = new PictureBox();
             pictureBox39 = new PictureBox();
             pictureBox40 = new PictureBox();
-            Merchant = new PictureBox();
+            mob3 = new PictureBox();
             mob1 = new PictureBox();
             mob2 = new PictureBox();
+            panel1 = new Panel();
+            select1 = new Label();
+            itemlb9 = new Label();
+            itemlb7 = new Label();
+            itemlb8 = new Label();
+            itemlb6 = new Label();
+            itemlb5 = new Label();
+            itemlb4 = new Label();
+            itemlb3 = new Label();
+            itemlb2 = new Label();
+            itemlb1 = new Label();
+            More = new PictureBox();
+            Less = new PictureBox();
+            UseItem = new Label();
+            Select = new PictureBox();
+            pictureBox47 = new PictureBox();
+            item9 = new PictureBox();
+            item8 = new PictureBox();
+            item7 = new PictureBox();
+            item6 = new PictureBox();
+            item5 = new PictureBox();
+            item4 = new PictureBox();
+            item3 = new PictureBox();
+            item2 = new PictureBox();
+            item1 = new PictureBox();
+            Shop = new Panel();
+            label1 = new Label();
+            Price9 = new Label();
+            Price8 = new Label();
+            Price7 = new Label();
+            Price6 = new Label();
+            Price5 = new Label();
+            Price4 = new Label();
+            Price3 = new Label();
+            Price2 = new Label();
+            Price1 = new Label();
+            sell9 = new PictureBox();
+            sell8 = new PictureBox();
+            sell7 = new PictureBox();
+            sell6 = new PictureBox();
+            sell5 = new PictureBox();
+            sell4 = new PictureBox();
+            sell3 = new PictureBox();
+            sell2 = new PictureBox();
+            sell1 = new PictureBox();
+            Buy = new Label();
+            OPEN = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -114,9 +161,34 @@
             ((System.ComponentModel.ISupportInitialize)Player).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox39).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox40).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)Merchant).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)mob1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)mob2).BeginInit();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)More).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Less).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Select).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox47).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)item9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)item8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)item7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)item6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)item5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)item4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)item3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)item2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)item1).BeginInit();
+            Shop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)sell9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)sell8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)sell7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)sell6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)sell5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)sell4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)sell3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)sell2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)sell1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OPEN).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -448,18 +520,19 @@
             pictureBox40.TabIndex = 40;
             pictureBox40.TabStop = false;
             // 
-            // Merchant
+            // mob3
             // 
-            Merchant.BackColor = Color.Transparent;
-            Merchant.BackgroundImageLayout = ImageLayout.Stretch;
-            Merchant.Image = (Image)resources.GetObject("Merchant.Image");
-            Merchant.Location = new Point(53, 496);
-            Merchant.Name = "Merchant";
-            Merchant.Size = new Size(125, 124);
-            Merchant.SizeMode = PictureBoxSizeMode.StretchImage;
-            Merchant.TabIndex = 41;
-            Merchant.TabStop = false;
-            Merchant.Click += Merchant_Click;
+            mob3.AccessibleName = "Merchant";
+            mob3.BackColor = Color.Transparent;
+            mob3.BackgroundImageLayout = ImageLayout.Stretch;
+            mob3.Image = (Image)resources.GetObject("mob3.Image");
+            mob3.Location = new Point(53, 496);
+            mob3.Name = "mob3";
+            mob3.Size = new Size(125, 124);
+            mob3.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob3.TabIndex = 41;
+            mob3.TabStop = false;
+            mob3.Click += Merchant_Click;
             // 
             // mob1
             // 
@@ -487,6 +560,517 @@
             mob2.TabIndex = 54;
             mob2.TabStop = false;
             // 
+            // panel1
+            // 
+            panel1.BackColor = Color.Transparent;
+            panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
+            panel1.BackgroundImageLayout = ImageLayout.Stretch;
+            panel1.Controls.Add(select1);
+            panel1.Controls.Add(itemlb9);
+            panel1.Controls.Add(itemlb7);
+            panel1.Controls.Add(itemlb8);
+            panel1.Controls.Add(itemlb6);
+            panel1.Controls.Add(itemlb5);
+            panel1.Controls.Add(itemlb4);
+            panel1.Controls.Add(itemlb3);
+            panel1.Controls.Add(itemlb2);
+            panel1.Controls.Add(itemlb1);
+            panel1.Controls.Add(More);
+            panel1.Controls.Add(Less);
+            panel1.Controls.Add(UseItem);
+            panel1.Controls.Add(Select);
+            panel1.Controls.Add(pictureBox47);
+            panel1.Controls.Add(item9);
+            panel1.Controls.Add(item8);
+            panel1.Controls.Add(item7);
+            panel1.Controls.Add(item6);
+            panel1.Controls.Add(item5);
+            panel1.Controls.Add(item4);
+            panel1.Controls.Add(item3);
+            panel1.Controls.Add(item2);
+            panel1.Controls.Add(item1);
+            panel1.Location = new Point(395, 178);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(527, 607);
+            panel1.TabIndex = 61;
+            panel1.Visible = false;
+            // 
+            // select1
+            // 
+            select1.AutoSize = true;
+            select1.Font = new Font("Cooper Black", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            select1.ForeColor = Color.Black;
+            select1.Location = new Point(231, 91);
+            select1.Name = "select1";
+            select1.Size = new Size(58, 19);
+            select1.TabIndex = 23;
+            select1.Text = "label1";
+            select1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // itemlb9
+            // 
+            itemlb9.AutoSize = true;
+            itemlb9.Font = new Font("Cooper Black", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            itemlb9.ForeColor = Color.White;
+            itemlb9.Location = new Point(358, 542);
+            itemlb9.Name = "itemlb9";
+            itemlb9.Size = new Size(58, 19);
+            itemlb9.TabIndex = 22;
+            itemlb9.Text = "label1";
+            itemlb9.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // itemlb7
+            // 
+            itemlb7.AutoSize = true;
+            itemlb7.Font = new Font("Cooper Black", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            itemlb7.ForeColor = Color.White;
+            itemlb7.Location = new Point(100, 542);
+            itemlb7.Name = "itemlb7";
+            itemlb7.Size = new Size(58, 19);
+            itemlb7.TabIndex = 21;
+            itemlb7.Text = "label1";
+            itemlb7.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // itemlb8
+            // 
+            itemlb8.AutoSize = true;
+            itemlb8.Font = new Font("Cooper Black", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            itemlb8.ForeColor = Color.White;
+            itemlb8.Location = new Point(229, 542);
+            itemlb8.Name = "itemlb8";
+            itemlb8.Size = new Size(58, 19);
+            itemlb8.TabIndex = 20;
+            itemlb8.Text = "label1";
+            itemlb8.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // itemlb6
+            // 
+            itemlb6.AutoSize = true;
+            itemlb6.Font = new Font("Cooper Black", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            itemlb6.ForeColor = Color.White;
+            itemlb6.Location = new Point(356, 418);
+            itemlb6.Name = "itemlb6";
+            itemlb6.Size = new Size(58, 19);
+            itemlb6.TabIndex = 19;
+            itemlb6.Text = "label1";
+            itemlb6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // itemlb5
+            // 
+            itemlb5.AutoSize = true;
+            itemlb5.Font = new Font("Cooper Black", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            itemlb5.ForeColor = Color.White;
+            itemlb5.Location = new Point(229, 418);
+            itemlb5.Name = "itemlb5";
+            itemlb5.Size = new Size(58, 19);
+            itemlb5.TabIndex = 18;
+            itemlb5.Text = "label1";
+            itemlb5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // itemlb4
+            // 
+            itemlb4.AutoSize = true;
+            itemlb4.Font = new Font("Cooper Black", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            itemlb4.ForeColor = Color.White;
+            itemlb4.Location = new Point(100, 418);
+            itemlb4.Name = "itemlb4";
+            itemlb4.Size = new Size(58, 19);
+            itemlb4.TabIndex = 17;
+            itemlb4.Text = "label1";
+            itemlb4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // itemlb3
+            // 
+            itemlb3.AutoSize = true;
+            itemlb3.Font = new Font("Cooper Black", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            itemlb3.ForeColor = Color.White;
+            itemlb3.Location = new Point(356, 287);
+            itemlb3.Name = "itemlb3";
+            itemlb3.Size = new Size(58, 19);
+            itemlb3.TabIndex = 16;
+            itemlb3.Text = "label1";
+            itemlb3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // itemlb2
+            // 
+            itemlb2.AutoSize = true;
+            itemlb2.Font = new Font("Cooper Black", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            itemlb2.ForeColor = Color.White;
+            itemlb2.Location = new Point(229, 287);
+            itemlb2.Name = "itemlb2";
+            itemlb2.Size = new Size(58, 19);
+            itemlb2.TabIndex = 15;
+            itemlb2.Text = "label1";
+            itemlb2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // itemlb1
+            // 
+            itemlb1.AutoSize = true;
+            itemlb1.Font = new Font("Cooper Black", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            itemlb1.ForeColor = Color.White;
+            itemlb1.Location = new Point(100, 287);
+            itemlb1.Name = "itemlb1";
+            itemlb1.Size = new Size(58, 19);
+            itemlb1.TabIndex = 14;
+            itemlb1.Text = "label1";
+            itemlb1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // More
+            // 
+            More.Location = new Point(355, 87);
+            More.Name = "More";
+            More.Size = new Size(28, 49);
+            More.TabIndex = 13;
+            More.TabStop = false;
+            More.Click += More_Click;
+            // 
+            // Less
+            // 
+            Less.Location = new Point(140, 87);
+            Less.Name = "Less";
+            Less.Size = new Size(28, 49);
+            Less.TabIndex = 12;
+            Less.TabStop = false;
+            Less.Click += Less_Click;
+            // 
+            // UseItem
+            // 
+            UseItem.AutoSize = true;
+            UseItem.Font = new Font("Cooper Black", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            UseItem.ForeColor = Color.WhiteSmoke;
+            UseItem.Location = new Point(195, 561);
+            UseItem.Name = "UseItem";
+            UseItem.Size = new Size(134, 27);
+            UseItem.TabIndex = 11;
+            UseItem.Text = "USE ITEM";
+            UseItem.Click += UseItem_Click;
+            // 
+            // Select
+            // 
+            Select.BackgroundImageLayout = ImageLayout.Stretch;
+            Select.Location = new Point(200, 36);
+            Select.Name = "Select";
+            Select.Size = new Size(129, 142);
+            Select.TabIndex = 10;
+            Select.TabStop = false;
+            // 
+            // pictureBox47
+            // 
+            pictureBox47.BackgroundImage = (Image)resources.GetObject("pictureBox47.BackgroundImage");
+            pictureBox47.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox47.Location = new Point(432, 3);
+            pictureBox47.Name = "pictureBox47";
+            pictureBox47.Size = new Size(60, 63);
+            pictureBox47.TabIndex = 9;
+            pictureBox47.TabStop = false;
+            pictureBox47.Click += pictureBox47_Click;
+            // 
+            // item9
+            // 
+            item9.Location = new Point(356, 467);
+            item9.Name = "item9";
+            item9.Size = new Size(71, 63);
+            item9.TabIndex = 8;
+            item9.TabStop = false;
+            // 
+            // item8
+            // 
+            item8.Location = new Point(229, 473);
+            item8.Name = "item8";
+            item8.Size = new Size(60, 63);
+            item8.TabIndex = 7;
+            item8.TabStop = false;
+            // 
+            // item7
+            // 
+            item7.Location = new Point(98, 473);
+            item7.Name = "item7";
+            item7.Size = new Size(60, 63);
+            item7.TabIndex = 6;
+            item7.TabStop = false;
+            // 
+            // item6
+            // 
+            item6.Location = new Point(356, 343);
+            item6.Name = "item6";
+            item6.Size = new Size(71, 63);
+            item6.TabIndex = 5;
+            item6.TabStop = false;
+            // 
+            // item5
+            // 
+            item5.Location = new Point(229, 343);
+            item5.Name = "item5";
+            item5.Size = new Size(60, 63);
+            item5.TabIndex = 4;
+            item5.TabStop = false;
+            // 
+            // item4
+            // 
+            item4.Location = new Point(98, 343);
+            item4.Name = "item4";
+            item4.Size = new Size(60, 63);
+            item4.TabIndex = 3;
+            item4.TabStop = false;
+            // 
+            // item3
+            // 
+            item3.Location = new Point(356, 208);
+            item3.Name = "item3";
+            item3.Size = new Size(60, 63);
+            item3.TabIndex = 2;
+            item3.TabStop = false;
+            // 
+            // item2
+            // 
+            item2.Location = new Point(229, 208);
+            item2.Name = "item2";
+            item2.Size = new Size(60, 63);
+            item2.TabIndex = 1;
+            item2.TabStop = false;
+            // 
+            // item1
+            // 
+            item1.Location = new Point(98, 208);
+            item1.Name = "item1";
+            item1.Size = new Size(60, 63);
+            item1.TabIndex = 0;
+            item1.TabStop = false;
+            // 
+            // Shop
+            // 
+            Shop.BackColor = Color.Transparent;
+            Shop.BackgroundImage = (Image)resources.GetObject("Shop.BackgroundImage");
+            Shop.BackgroundImageLayout = ImageLayout.Stretch;
+            Shop.Controls.Add(label1);
+            Shop.Controls.Add(Price9);
+            Shop.Controls.Add(Price8);
+            Shop.Controls.Add(Price7);
+            Shop.Controls.Add(Price6);
+            Shop.Controls.Add(Price5);
+            Shop.Controls.Add(Price4);
+            Shop.Controls.Add(Price3);
+            Shop.Controls.Add(Price2);
+            Shop.Controls.Add(Price1);
+            Shop.Controls.Add(sell9);
+            Shop.Controls.Add(sell8);
+            Shop.Controls.Add(sell7);
+            Shop.Controls.Add(sell6);
+            Shop.Controls.Add(sell5);
+            Shop.Controls.Add(sell4);
+            Shop.Controls.Add(sell3);
+            Shop.Controls.Add(sell2);
+            Shop.Controls.Add(sell1);
+            Shop.Controls.Add(Buy);
+            Shop.Location = new Point(928, 178);
+            Shop.Name = "Shop";
+            Shop.Size = new Size(475, 448);
+            Shop.TabIndex = 24;
+            Shop.Visible = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Cooper Black", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.WhiteSmoke;
+            label1.Location = new Point(165, 12);
+            label1.Name = "label1";
+            label1.Size = new Size(157, 21);
+            label1.TabIndex = 44;
+            label1.Text = "Merchant Shop";
+            // 
+            // Price9
+            // 
+            Price9.AutoSize = true;
+            Price9.Font = new Font("Cooper Black", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Price9.ForeColor = Color.WhiteSmoke;
+            Price9.Location = new Point(322, 375);
+            Price9.Name = "Price9";
+            Price9.Size = new Size(87, 17);
+            Price9.TabIndex = 43;
+            Price9.Text = "BUY ITEM";
+            // 
+            // Price8
+            // 
+            Price8.AutoSize = true;
+            Price8.Font = new Font("Cooper Black", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Price8.ForeColor = Color.WhiteSmoke;
+            Price8.Location = new Point(202, 375);
+            Price8.Name = "Price8";
+            Price8.Size = new Size(87, 17);
+            Price8.TabIndex = 42;
+            Price8.Text = "BUY ITEM";
+            // 
+            // Price7
+            // 
+            Price7.AutoSize = true;
+            Price7.Font = new Font("Cooper Black", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Price7.ForeColor = Color.WhiteSmoke;
+            Price7.Location = new Point(77, 375);
+            Price7.Name = "Price7";
+            Price7.Size = new Size(87, 17);
+            Price7.TabIndex = 41;
+            Price7.Text = "BUY ITEM";
+            // 
+            // Price6
+            // 
+            Price6.AutoSize = true;
+            Price6.Font = new Font("Cooper Black", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Price6.ForeColor = Color.WhiteSmoke;
+            Price6.Location = new Point(322, 267);
+            Price6.Name = "Price6";
+            Price6.Size = new Size(87, 17);
+            Price6.TabIndex = 40;
+            Price6.Text = "BUY ITEM";
+            // 
+            // Price5
+            // 
+            Price5.AutoSize = true;
+            Price5.Font = new Font("Cooper Black", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Price5.ForeColor = Color.WhiteSmoke;
+            Price5.Location = new Point(202, 267);
+            Price5.Name = "Price5";
+            Price5.Size = new Size(87, 17);
+            Price5.TabIndex = 39;
+            Price5.Text = "BUY ITEM";
+            // 
+            // Price4
+            // 
+            Price4.AutoSize = true;
+            Price4.Font = new Font("Cooper Black", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Price4.ForeColor = Color.WhiteSmoke;
+            Price4.Location = new Point(77, 267);
+            Price4.Name = "Price4";
+            Price4.Size = new Size(87, 17);
+            Price4.TabIndex = 38;
+            Price4.Text = "BUY ITEM";
+            // 
+            // Price3
+            // 
+            Price3.AutoSize = true;
+            Price3.Font = new Font("Cooper Black", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Price3.ForeColor = Color.WhiteSmoke;
+            Price3.Location = new Point(322, 145);
+            Price3.Name = "Price3";
+            Price3.Size = new Size(87, 17);
+            Price3.TabIndex = 37;
+            Price3.Text = "BUY ITEM";
+            // 
+            // Price2
+            // 
+            Price2.AutoSize = true;
+            Price2.Font = new Font("Cooper Black", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Price2.ForeColor = Color.WhiteSmoke;
+            Price2.Location = new Point(202, 145);
+            Price2.Name = "Price2";
+            Price2.Size = new Size(87, 17);
+            Price2.TabIndex = 36;
+            Price2.Text = "BUY ITEM";
+            // 
+            // Price1
+            // 
+            Price1.AutoSize = true;
+            Price1.Font = new Font("Cooper Black", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Price1.ForeColor = Color.WhiteSmoke;
+            Price1.Location = new Point(77, 145);
+            Price1.Name = "Price1";
+            Price1.Size = new Size(87, 17);
+            Price1.TabIndex = 35;
+            Price1.Text = "BUY ITEM";
+            // 
+            // sell9
+            // 
+            sell9.Location = new Point(338, 314);
+            sell9.Name = "sell9";
+            sell9.Size = new Size(55, 54);
+            sell9.TabIndex = 34;
+            sell9.TabStop = false;
+            // 
+            // sell8
+            // 
+            sell8.Location = new Point(211, 315);
+            sell8.Name = "sell8";
+            sell8.Size = new Size(55, 54);
+            sell8.TabIndex = 33;
+            sell8.TabStop = false;
+            // 
+            // sell7
+            // 
+            sell7.Location = new Point(93, 314);
+            sell7.Name = "sell7";
+            sell7.Size = new Size(55, 54);
+            sell7.TabIndex = 32;
+            sell7.TabStop = false;
+            // 
+            // sell6
+            // 
+            sell6.Location = new Point(338, 197);
+            sell6.Name = "sell6";
+            sell6.Size = new Size(55, 54);
+            sell6.TabIndex = 31;
+            sell6.TabStop = false;
+            // 
+            // sell5
+            // 
+            sell5.Location = new Point(211, 197);
+            sell5.Name = "sell5";
+            sell5.Size = new Size(55, 54);
+            sell5.TabIndex = 30;
+            sell5.TabStop = false;
+            // 
+            // sell4
+            // 
+            sell4.Location = new Point(90, 197);
+            sell4.Name = "sell4";
+            sell4.Size = new Size(55, 54);
+            sell4.TabIndex = 29;
+            sell4.TabStop = false;
+            // 
+            // sell3
+            // 
+            sell3.Location = new Point(335, 72);
+            sell3.Name = "sell3";
+            sell3.Size = new Size(55, 54);
+            sell3.TabIndex = 28;
+            sell3.TabStop = false;
+            // 
+            // sell2
+            // 
+            sell2.Location = new Point(211, 72);
+            sell2.Name = "sell2";
+            sell2.Size = new Size(55, 54);
+            sell2.TabIndex = 27;
+            sell2.TabStop = false;
+            // 
+            // sell1
+            // 
+            sell1.Location = new Point(90, 72);
+            sell1.Name = "sell1";
+            sell1.Size = new Size(55, 54);
+            sell1.TabIndex = 26;
+            sell1.TabStop = false;
+            // 
+            // Buy
+            // 
+            Buy.AutoSize = true;
+            Buy.Font = new Font("Cooper Black", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Buy.ForeColor = Color.WhiteSmoke;
+            Buy.Location = new Point(192, 400);
+            Buy.Name = "Buy";
+            Buy.Size = new Size(111, 21);
+            Buy.TabIndex = 25;
+            Buy.Text = "BUY ITEM";
+            Buy.Click += Buy_Click;
+            // 
+            // OPEN
+            // 
+            OPEN.Location = new Point(1337, 12);
+            OPEN.Name = "OPEN";
+            OPEN.Size = new Size(75, 75);
+            OPEN.TabIndex = 62;
+            OPEN.TabStop = false;
+            OPEN.Click += OPEN_Click;
+            // 
             // JuraForestForm6
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -494,9 +1078,12 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1424, 985);
+            Controls.Add(Shop);
+            Controls.Add(OPEN);
+            Controls.Add(panel1);
             Controls.Add(mob2);
             Controls.Add(mob1);
-            Controls.Add(Merchant);
+            Controls.Add(mob3);
             Controls.Add(pictureBox40);
             Controls.Add(pictureBox39);
             Controls.Add(Player);
@@ -584,9 +1171,36 @@
             ((System.ComponentModel.ISupportInitialize)Player).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox39).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox40).EndInit();
-            ((System.ComponentModel.ISupportInitialize)Merchant).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob3).EndInit();
             ((System.ComponentModel.ISupportInitialize)mob1).EndInit();
             ((System.ComponentModel.ISupportInitialize)mob2).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)More).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Less).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Select).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox47).EndInit();
+            ((System.ComponentModel.ISupportInitialize)item9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)item8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)item7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)item6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)item5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)item4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)item3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)item2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)item1).EndInit();
+            Shop.ResumeLayout(false);
+            Shop.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)sell9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)sell8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)sell7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)sell6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)sell5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)sell4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)sell3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)sell2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)sell1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OPEN).EndInit();
             ResumeLayout(false);
         }
 
@@ -633,8 +1247,55 @@
         private PictureBox Player;
         private PictureBox pictureBox39;
         private PictureBox pictureBox40;
-        private PictureBox Merchant;
+        private PictureBox mob3;
         private PictureBox mob1;
         private PictureBox mob2;
+        private Panel panel1;
+        private Label select1;
+        private Label itemlb9;
+        private Label itemlb7;
+        private Label itemlb8;
+        private Label itemlb6;
+        private Label itemlb5;
+        private Label itemlb4;
+        private Label itemlb3;
+        private Label itemlb2;
+        private Label itemlb1;
+        private PictureBox More;
+        private PictureBox Less;
+        private Label UseItem;
+        private PictureBox Select;
+        private PictureBox pictureBox47;
+        private PictureBox item9;
+        private PictureBox item8;
+        private PictureBox item7;
+        private PictureBox item6;
+        private PictureBox item5;
+        private PictureBox item4;
+        private PictureBox item3;
+        private PictureBox item2;
+        private PictureBox item1;
+        private PictureBox OPEN;
+        private Panel Shop;
+        private Label Price9;
+        private Label Price8;
+        private Label Price7;
+        private Label Price6;
+        private Label Price5;
+        private Label Price4;
+        private Label Price3;
+        private Label Price2;
+        private Label Price1;
+        private PictureBox sell9;
+        private PictureBox sell8;
+        private PictureBox sell7;
+        private PictureBox sell6;
+        private PictureBox sell5;
+        private PictureBox sell4;
+        private PictureBox sell3;
+        private PictureBox sell2;
+        private PictureBox sell1;
+        private Label Buy;
+        private Label label1;
     }
 }

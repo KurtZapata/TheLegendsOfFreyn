@@ -82,9 +82,8 @@ namespace RPG_FinalProj
             return newPosition;
         }
 
-        public int collisionChecker(int[] newPosition, int[,] moblocation, string[] mob)
+        public int[] collisionChecker( int[] newPosition, int[,] moblocation, string[] mob)
         {
-
             for (int i = 0; i < moblocation.GetLength(0); i++)
             {
                 if ((newPosition[1] <= moblocation[i, 3] + 5 && newPosition[1] >= moblocation[i, 1] - 5) &&
@@ -94,13 +93,41 @@ namespace RPG_FinalProj
                 {
                     if (mob[i] == "Goblin")
                     {
-                        MessageBox.Show("GOBLIN HEHE");
-                        return 1;
+                        return new int[] { 1, i };
                     }
-                    else if (mob[i] == "Teleport")
+                    else if (mob[i] == "Ogre")
                     {
-                        return 2;
+                        return new int[] { 2, i };
                     }
+                    else if (mob[i] == "wolf")
+                    {
+                        return new int[] { 3, i };
+                    }
+                    else if (mob[i] == "Werewolf")
+                    {
+                        return new int[] { 4, i };
+                    }
+                    else if (mob[i] == "Undead")
+                    {
+                        return new int[] { 5, i };
+                    }
+                    else if (mob[i] == "Gargoyle")
+                    {
+                        return new int[] { 6, i };
+                    }
+                    else if (mob[i] == "Skeleton")
+                    {
+                        return new int[] { 7, i };
+                    }
+                    else if (mob[i] == "Slime")
+                    {
+                        return new int[] { 8, i };
+                    }
+                    else if (mob[i] == "Merchant")
+                    {
+                        return new int[] { 9, i };
+                    }
+
                     break;
                 }
 
@@ -111,14 +138,40 @@ namespace RPG_FinalProj
                 {
                     if (mob[i] == "Goblin")
                     {
-                        MessageBox.Show("GOBLIN HEHE");
-                        return 1;
+                        return new int[] { 1, i };
                     }
-                    else if (mob[i] == "Teleport")
+                    else if (mob[i] == "Ogre")
                     {
-                        return 2;
+                        return new int[] { 2, i };
                     }
-                    break;
+                    else if (mob[i] == "wolf")
+                    {
+                        return new int[] { 3, i };
+                    }
+                    else if (mob[i] == "Werewolf")
+                    {
+                        return new int[] { 4, i };
+                    }
+                    else if (mob[i] == "Undead")
+                    {
+                        return new int[] { 5, i };
+                    }
+                    else if (mob[i] == "Gargoyle")
+                    {
+                        return new int[] { 6, i };
+                    }
+                    else if (mob[i] == "Skeleton")
+                    {
+                        return new int[] { 7, i };
+                    }
+                    else if (mob[i] == "Slime")
+                    {
+                        return new int[] { 8, i };
+                    }
+                    else if (mob[i] == "Merchant")
+                    {
+                        return new int[] { 9, i };
+                    }
                 }
 
                 else if (newPosition[3] >= moblocation[i, 1] - 5 && newPosition[3] <= moblocation[i, 3] + 5 &&
@@ -128,12 +181,39 @@ namespace RPG_FinalProj
                 {
                     if (mob[i] == "Goblin")
                     {
-                        MessageBox.Show("GOBLIN HEHE");
-                        return 1;
+                        return new int[] { 1, i };
                     }
-                    else if (mob[i] == "Teleport")
+                    else if (mob[i] == "Ogre")
                     {
-                        return 2;
+                        return new int[] { 2, i };
+                    }
+                    else if (mob[i] == "wolf")
+                    {
+                        return new int[] { 3, i };
+                    }
+                    else if (mob[i] == "Werewolf")
+                    {
+                        return new int[] { 4, i };
+                    }
+                    else if (mob[i] == "Undead")
+                    {
+                        return new int[] { 5, i };
+                    }
+                    else if (mob[i] == "Gargoyle")
+                    {
+                        return new int[] { 6, i };
+                    }
+                    else if (mob[i] == "Skeleton")
+                    {
+                        return new int[] { 7, i };
+                    }
+                    else if (mob[i] == "Slime")
+                    {
+                        return new int[] { 8, i };
+                    }
+                    else if (mob[i] == "Merchant")
+                    {
+                        return new int[] { 9, i };
                     }
                     break;
                 }
@@ -145,17 +225,45 @@ namespace RPG_FinalProj
                 {
                     if (mob[i] == "Goblin")
                     {
-                        MessageBox.Show("GOBLIN HEHE");
-                        return 1;
+                        return new int[] { 1, i };
                     }
-                    else if (mob[i] == "Teleport")
+                    else if (mob[i] == "Ogre")
                     {
-                        return 2;
+                        return new int[] { 2, i };
+                    }
+                    else if (mob[i] == "Wolf")
+                    {
+                        return new int[] { 3, i };
+                    }
+                    else if (mob[i] == "Werewolf")
+                    {
+                        return new int[] { 4, i };
+                    }
+                    else if (mob[i] == "Undead")
+                    {
+                        return new int[] { 5, i };
+                    }
+                    else if (mob[i] == "Gargoyle")
+                    {
+                        return new int[] { 6, i };
+                    }
+                    else if (mob[i] == "Skeleton")
+                    {
+                        return new int[] { 7, i };
+                    }
+                    else if (mob[i] == "Slime")
+                    {
+                        return new int[] { 8, i };
+
+                    }
+                    else if (mob[i] == "Merchant")
+                    {
+                        return new int[] { 9, i };
                     }
                     break;
                 }
             }
-            return 0;
+            return new int[] { 0, 0 };
         }
     }
 }
