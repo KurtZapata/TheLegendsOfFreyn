@@ -74,6 +74,10 @@
             pictureBox42 = new PictureBox();
             pictureBox43 = new PictureBox();
             pictureBox44 = new PictureBox();
+            mob1 = new PictureBox();
+            pictureBox45 = new PictureBox();
+            mob2 = new PictureBox();
+            pictureBox46 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -119,6 +123,10 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox42).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox43).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox44).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox45).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox46).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -219,7 +227,7 @@
             // 
             // pictureBox13
             // 
-            pictureBox13.Location = new Point(1326, 568);
+            pictureBox13.Location = new Point(1340, 568);
             pictureBox13.Name = "pictureBox13";
             pictureBox13.Size = new Size(86, 213);
             pictureBox13.TabIndex = 11;
@@ -347,9 +355,9 @@
             // 
             // pictureBox29
             // 
-            pictureBox29.Location = new Point(586, 21);
+            pictureBox29.Location = new Point(586, -1);
             pictureBox29.Name = "pictureBox29";
-            pictureBox29.Size = new Size(50, 141);
+            pictureBox29.Size = new Size(50, 163);
             pictureBox29.TabIndex = 27;
             pictureBox29.TabStop = false;
             // 
@@ -482,6 +490,48 @@
             pictureBox44.TabIndex = 42;
             pictureBox44.TabStop = false;
             // 
+            // mob1
+            // 
+            mob1.AccessibleName = "TeleportTop";
+            mob1.BackColor = Color.Transparent;
+            mob1.BackgroundImageLayout = ImageLayout.Stretch;
+            mob1.Image = (Image)resources.GetObject("mob1.Image");
+            mob1.Location = new Point(671, 21);
+            mob1.Name = "mob1";
+            mob1.Size = new Size(89, 78);
+            mob1.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob1.TabIndex = 69;
+            mob1.TabStop = false;
+            // 
+            // pictureBox45
+            // 
+            pictureBox45.Location = new Point(466, -15);
+            pictureBox45.Name = "pictureBox45";
+            pictureBox45.Size = new Size(563, 50);
+            pictureBox45.TabIndex = 70;
+            pictureBox45.TabStop = false;
+            // 
+            // mob2
+            // 
+            mob2.AccessibleName = "TeleportBottom";
+            mob2.BackColor = Color.Transparent;
+            mob2.BackgroundImageLayout = ImageLayout.Stretch;
+            mob2.Image = (Image)resources.GetObject("mob2.Image");
+            mob2.Location = new Point(671, 881);
+            mob2.Name = "mob2";
+            mob2.Size = new Size(89, 78);
+            mob2.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob2.TabIndex = 71;
+            mob2.TabStop = false;
+            // 
+            // pictureBox46
+            // 
+            pictureBox46.Location = new Point(435, 965);
+            pictureBox46.Name = "pictureBox46";
+            pictureBox46.Size = new Size(563, 50);
+            pictureBox46.TabIndex = 72;
+            pictureBox46.TabStop = false;
+            // 
             // CrestfallCityForm3
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -489,6 +539,10 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1424, 985);
+            Controls.Add(pictureBox46);
+            Controls.Add(mob2);
+            Controls.Add(mob1);
+            Controls.Add(pictureBox45);
             Controls.Add(pictureBox44);
             Controls.Add(pictureBox43);
             Controls.Add(pictureBox42);
@@ -584,6 +638,10 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox42).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox43).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox44).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox45).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox46).EndInit();
             ResumeLayout(false);
         }
 
@@ -634,5 +692,9 @@
         private PictureBox pictureBox42;
         private PictureBox pictureBox43;
         private PictureBox pictureBox44;
+        private PictureBox mob1;
+        private PictureBox pictureBox45;
+        private PictureBox mob2;
+        private PictureBox pictureBox46;
     }
 }

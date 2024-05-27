@@ -41,6 +41,14 @@
             pictureBox9 = new PictureBox();
             pictureBox10 = new PictureBox();
             pictureBox11 = new PictureBox();
+            mob3 = new PictureBox();
+            mob2 = new PictureBox();
+            mob1 = new PictureBox();
+            mob4 = new PictureBox();
+            pictureBox12 = new PictureBox();
+            pictureBox13 = new PictureBox();
+            pictureBox14 = new PictureBox();
+            pictureBox15 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)Player).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -53,6 +61,14 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
             SuspendLayout();
             // 
             // Player
@@ -152,6 +168,90 @@
             pictureBox11.TabIndex = 11;
             pictureBox11.TabStop = false;
             // 
+            // mob3
+            // 
+            mob3.AccessibleName = "TeleportTop";
+            mob3.BackColor = Color.Transparent;
+            mob3.BackgroundImageLayout = ImageLayout.Stretch;
+            mob3.Image = (Image)resources.GetObject("mob3.Image");
+            mob3.Location = new Point(671, 21);
+            mob3.Name = "mob3";
+            mob3.Size = new Size(89, 78);
+            mob3.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob3.TabIndex = 69;
+            mob3.TabStop = false;
+            // 
+            // mob2
+            // 
+            mob2.AccessibleName = "TeleportLeft";
+            mob2.BackColor = Color.Transparent;
+            mob2.BackgroundImageLayout = ImageLayout.Stretch;
+            mob2.Image = (Image)resources.GetObject("mob2.Image");
+            mob2.Location = new Point(25, 490);
+            mob2.Name = "mob2";
+            mob2.Size = new Size(89, 78);
+            mob2.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob2.TabIndex = 70;
+            mob2.TabStop = false;
+            // 
+            // mob1
+            // 
+            mob1.AccessibleName = "TeleportRight";
+            mob1.BackColor = Color.Transparent;
+            mob1.BackgroundImageLayout = ImageLayout.Stretch;
+            mob1.Image = (Image)resources.GetObject("mob1.Image");
+            mob1.Location = new Point(1323, 490);
+            mob1.Name = "mob1";
+            mob1.Size = new Size(89, 78);
+            mob1.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob1.TabIndex = 71;
+            mob1.TabStop = false;
+            // 
+            // mob4
+            // 
+            mob4.AccessibleName = "TeleportBottom";
+            mob4.BackColor = Color.Transparent;
+            mob4.BackgroundImageLayout = ImageLayout.Stretch;
+            mob4.Image = (Image)resources.GetObject("mob4.Image");
+            mob4.Location = new Point(671, 895);
+            mob4.Name = "mob4";
+            mob4.Size = new Size(89, 78);
+            mob4.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob4.TabIndex = 72;
+            mob4.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            pictureBox12.Location = new Point(1403, 303);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(42, 432);
+            pictureBox12.TabIndex = 73;
+            pictureBox12.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            pictureBox13.Location = new Point(-4, 303);
+            pictureBox13.Name = "pictureBox13";
+            pictureBox13.Size = new Size(42, 432);
+            pictureBox13.TabIndex = 74;
+            pictureBox13.TabStop = false;
+            // 
+            // pictureBox14
+            // 
+            pictureBox14.Location = new Point(523, -13);
+            pictureBox14.Name = "pictureBox14";
+            pictureBox14.Size = new Size(373, 28);
+            pictureBox14.TabIndex = 75;
+            pictureBox14.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            pictureBox15.Location = new Point(523, 962);
+            pictureBox15.Name = "pictureBox15";
+            pictureBox15.Size = new Size(373, 28);
+            pictureBox15.TabIndex = 76;
+            pictureBox15.TabStop = false;
+            // 
             // CrestfallCityForm6
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -159,6 +259,14 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1424, 985);
+            Controls.Add(mob4);
+            Controls.Add(pictureBox15);
+            Controls.Add(pictureBox14);
+            Controls.Add(mob2);
+            Controls.Add(pictureBox13);
+            Controls.Add(mob1);
+            Controls.Add(pictureBox12);
+            Controls.Add(mob3);
             Controls.Add(pictureBox11);
             Controls.Add(pictureBox10);
             Controls.Add(pictureBox9);
@@ -171,6 +279,7 @@
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(Player);
+            DoubleBuffered = true;
             Name = "CrestfallCityForm6";
             Text = "CrestfallCityForm6";
             Load += CrestfallCityForm6_Load;
@@ -187,6 +296,14 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
             ResumeLayout(false);
         }
 
@@ -204,5 +321,13 @@
         private PictureBox pictureBox9;
         private PictureBox pictureBox10;
         private PictureBox pictureBox11;
+        private PictureBox mob3;
+        private PictureBox mob2;
+        private PictureBox mob1;
+        private PictureBox mob4;
+        private PictureBox pictureBox12;
+        private PictureBox pictureBox13;
+        private PictureBox pictureBox14;
+        private PictureBox pictureBox15;
     }
 }

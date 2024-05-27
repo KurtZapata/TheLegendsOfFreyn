@@ -90,8 +90,8 @@ namespace RPG_FinalProj
                 {
                     if (mob[i] == "TeleportRight")
                     {
-                        Program.items.location[0] = 95;
-                        Program.items.location[1] = 455;
+                        Program.items.location[0] = 145;
+                        Program.items.location[1] = 510;
                         CrestfallCityForm5 CCF = new CrestfallCityForm5();
                         this.Hide();
                         CCF.ShowDialog();

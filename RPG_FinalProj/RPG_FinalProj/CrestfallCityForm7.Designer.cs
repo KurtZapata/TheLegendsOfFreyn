@@ -39,6 +39,10 @@
             pictureBox7 = new PictureBox();
             pictureBox8 = new PictureBox();
             pictureBox9 = new PictureBox();
+            mob2 = new PictureBox();
+            mob1 = new PictureBox();
+            pictureBox10 = new PictureBox();
+            pictureBox11 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -49,6 +53,10 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -78,7 +86,7 @@
             // Player
             // 
             Player.BackColor = SystemColors.ActiveCaption;
-            Player.Location = new Point(80, 451);
+            Player.Location = new Point(165, 511);
             Player.Name = "Player";
             Player.Size = new Size(35, 35);
             Player.TabIndex = 3;
@@ -132,6 +140,48 @@
             pictureBox9.TabIndex = 9;
             pictureBox9.TabStop = false;
             // 
+            // mob2
+            // 
+            mob2.AccessibleName = "TeleportLeft";
+            mob2.BackColor = Color.Transparent;
+            mob2.BackgroundImageLayout = ImageLayout.Stretch;
+            mob2.Image = (Image)resources.GetObject("mob2.Image");
+            mob2.Location = new Point(25, 490);
+            mob2.Name = "mob2";
+            mob2.Size = new Size(89, 78);
+            mob2.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob2.TabIndex = 71;
+            mob2.TabStop = false;
+            // 
+            // mob1
+            // 
+            mob1.AccessibleName = "TeleportRight";
+            mob1.BackColor = Color.Transparent;
+            mob1.BackgroundImageLayout = ImageLayout.Stretch;
+            mob1.Image = (Image)resources.GetObject("mob1.Image");
+            mob1.Location = new Point(1323, 490);
+            mob1.Name = "mob1";
+            mob1.Size = new Size(89, 78);
+            mob1.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob1.TabIndex = 72;
+            mob1.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            pictureBox10.Location = new Point(-21, 297);
+            pictureBox10.Name = "pictureBox10";
+            pictureBox10.Size = new Size(31, 428);
+            pictureBox10.TabIndex = 73;
+            pictureBox10.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            pictureBox11.Location = new Point(1401, 297);
+            pictureBox11.Name = "pictureBox11";
+            pictureBox11.Size = new Size(31, 428);
+            pictureBox11.TabIndex = 74;
+            pictureBox11.TabStop = false;
+            // 
             // CrestfallCityForm7
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -139,6 +189,10 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1424, 985);
+            Controls.Add(mob1);
+            Controls.Add(pictureBox11);
+            Controls.Add(pictureBox10);
+            Controls.Add(mob2);
             Controls.Add(pictureBox9);
             Controls.Add(pictureBox8);
             Controls.Add(pictureBox7);
@@ -164,6 +218,10 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             ResumeLayout(false);
         }
 
@@ -179,5 +237,9 @@
         private PictureBox pictureBox7;
         private PictureBox pictureBox8;
         private PictureBox pictureBox9;
+        private PictureBox mob2;
+        private PictureBox mob1;
+        private PictureBox pictureBox10;
+        private PictureBox pictureBox11;
     }
 }

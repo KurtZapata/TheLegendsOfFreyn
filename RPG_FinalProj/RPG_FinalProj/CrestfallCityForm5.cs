@@ -12,18 +12,98 @@ namespace RPG_FinalProj
 {
     public partial class CrestfallCityForm5 : Form
     {
-        int[,] obstacles = new int[20, 4];
-        PictureBox[] obstacle = new PictureBox[20];
-        PictureBox[] mob = new PictureBox[3];
-        int[,] moblocation = new int[0, 4];
-        string[] mobnames = new string[2];
+        private readonly LocItems _items;
+
+        int[,] obstacles = new int[26, 4];
+        PictureBox[] obstacle = new PictureBox[26];
+        PictureBox[] mob = new PictureBox[4];
+        int[,] moblocation = new int[4, 4];
+        string[] mobnames = new string[4];
 
         public CrestfallCityForm5()
         {
             InitializeComponent();
+            _items = Program.items;
+
         }
+        private void TeleportChecker(int[] newPosition, int[,] moblocation, string[] mob)
+        {
+            for (int i = 0; i < moblocation.GetLength(0); i++)
+            {
+                if ((newPosition[1] <= moblocation[i, 3] + 5 && newPosition[1] >= moblocation[i, 1] - 5) &&
+                    ((newPosition[0] > moblocation[i, 0] && newPosition[2] < moblocation[i, 2]) ||
+                    (newPosition[0] <= moblocation[i, 0] && newPosition[2] >= moblocation[i, 0]) ||
+                    (newPosition[2] >= moblocation[i, 2] && newPosition[0] <= moblocation[i, 2])))
+                {
+                    if (mob[i] == "TeleportTop")
+                    {
+                        Program.items.location[0] = 695;
+                        Program.items.location[1] = 835;
+                        CrestfallCityForm3 CCF = new CrestfallCityForm3();
+                        this.Hide();
+                        CCF.ShowDialog();
+                        this.Close();
+                    }
+                    break;
+                }
+
+                else if (newPosition[0] <= moblocation[i, 2] + 5 && newPosition[0] >= moblocation[i, 0] - 5 &&
+                   ((newPosition[1] > moblocation[i, 1] && newPosition[3] < moblocation[i, 3]) ||
+                   (newPosition[1] <= moblocation[i, 1] && newPosition[3] >= moblocation[i, 1]) ||
+                   (newPosition[3] >= moblocation[i, 3] && newPosition[1] <= moblocation[i, 3])))
+                {
+                    if (mob[i] == "TeleportLeft")
+                    {
+                        Program.items.location[0] = 1235;
+                        Program.items.location[1] = 510;
+                        CrestfallCityForm1 CCF = new CrestfallCityForm1();
+                        this.Hide();
+                        CCF.ShowDialog();
+                        this.Close();
+                    }
+                    break;
+                }
+
+                else if (newPosition[3] >= moblocation[i, 1] - 5 && newPosition[3] <= moblocation[i, 3] + 5 &&
+                   ((newPosition[0] > moblocation[i, 0] && newPosition[2] < moblocation[i, 2]) ||
+                   (newPosition[0] <= moblocation[i, 0] && newPosition[2] >= moblocation[i, 0]) ||
+                   (newPosition[2] >= moblocation[i, 2] && newPosition[0] <= moblocation[i, 2])))
+                {
+                    if (mob[i] == "TeleportBottom")
+                    {
+                        Program.items.location[0] = 695;
+                        Program.items.location[1] = 120;
+                        CrestfallCityForm8 CCF = new CrestfallCityForm8();
+                        this.Hide();
+                        CCF.ShowDialog();
+                        this.Close();
+                    }
+                    break;
+                }
+
+                else if (newPosition[2] >= moblocation[i, 0] - 5 && newPosition[2] <= moblocation[i, 2] + 5 &&
+                   ((newPosition[1] > moblocation[i, 1] && newPosition[3] < moblocation[i, 3]) ||
+                   (newPosition[1] <= moblocation[i, 1] && newPosition[3] >= moblocation[i, 1]) ||
+                   (newPosition[3] >= moblocation[i, 3] && newPosition[1] <= moblocation[i, 3])))
+                {
+                    if (mob[i] == "TeleportRight")
+                    {
+                        Program.items.location[0] = 145;
+                        Program.items.location[1] = 510;
+                        CrestfallCityForm6 CCF = new CrestfallCityForm6();
+                        this.Hide();
+                        CCF.ShowDialog();
+                        this.Close();
+                    }
+                    break;
+                }
+            }
+        }
+
         private void CrestfallCityForm5_Load(object sender, EventArgs e)
         {
+            Player.Location = new Point(Program.items.location[0], Program.items.location[1]);
+
             for (int i = 1; i <= 100; i++)
             {
                 Control control = this.Controls["pictureBox" + i];
@@ -92,9 +172,21 @@ namespace RPG_FinalProj
             newPos[2] = Player.Location.X + Player.Size.Width;
             newPos[3] = Player.Location.Y + Player.Size.Height;
             newPosition.collisionChecker(newPos, moblocation, mobnames);
-
+            TeleportChecker(newPos, moblocation, mobnames);
+            InteractionChecker();
         }
 
-       
+        int entityType = 0;
+        private void InteractionChecker()
+        {
+            if (entityType == 1)
+            {
+                MessageBox.Show("Combat");
+            }
+            else if (entityType == 2)
+            {
+
+            }
+        }
     }
 }

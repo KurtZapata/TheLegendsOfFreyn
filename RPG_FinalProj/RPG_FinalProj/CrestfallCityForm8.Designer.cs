@@ -60,6 +60,10 @@
             pictureBox28 = new PictureBox();
             Merchant = new PictureBox();
             SideQuest = new PictureBox();
+            mob2 = new PictureBox();
+            mob1 = new PictureBox();
+            mob3 = new PictureBox();
+            pictureBox29 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -91,6 +95,10 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox28).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Merchant).BeginInit();
             ((System.ComponentModel.ISupportInitialize)SideQuest).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox29).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -201,7 +209,7 @@
             // 
             pictureBox14.Location = new Point(811, 382);
             pictureBox14.Name = "pictureBox14";
-            pictureBox14.Size = new Size(42, 134);
+            pictureBox14.Size = new Size(42, 122);
             pictureBox14.TabIndex = 13;
             pictureBox14.TabStop = false;
             // 
@@ -225,7 +233,7 @@
             // 
             pictureBox17.Location = new Point(863, 459);
             pictureBox17.Name = "pictureBox17";
-            pictureBox17.Size = new Size(100, 50);
+            pictureBox17.Size = new Size(100, 45);
             pictureBox17.TabIndex = 16;
             pictureBox17.TabStop = false;
             // 
@@ -320,9 +328,9 @@
             // 
             // pictureBox28
             // 
-            pictureBox28.Location = new Point(875, 957);
+            pictureBox28.Location = new Point(324, 970);
             pictureBox28.Name = "pictureBox28";
-            pictureBox28.Size = new Size(537, 50);
+            pictureBox28.Size = new Size(1088, 37);
             pictureBox28.TabIndex = 28;
             pictureBox28.TabStop = false;
             // 
@@ -344,6 +352,53 @@
             SideQuest.TabIndex = 30;
             SideQuest.TabStop = false;
             // 
+            // mob2
+            // 
+            mob2.AccessibleName = "TeleportBottom";
+            mob2.BackColor = Color.Transparent;
+            mob2.BackgroundImageLayout = ImageLayout.Stretch;
+            mob2.Image = (Image)resources.GetObject("mob2.Image");
+            mob2.Location = new Point(671, 898);
+            mob2.Name = "mob2";
+            mob2.Size = new Size(89, 78);
+            mob2.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob2.TabIndex = 69;
+            mob2.TabStop = false;
+            // 
+            // mob1
+            // 
+            mob1.AccessibleName = "TeleportRight";
+            mob1.BackColor = Color.Transparent;
+            mob1.BackgroundImageLayout = ImageLayout.Stretch;
+            mob1.Image = (Image)resources.GetObject("mob1.Image");
+            mob1.Location = new Point(1344, 510);
+            mob1.Name = "mob1";
+            mob1.Size = new Size(89, 78);
+            mob1.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob1.TabIndex = 70;
+            mob1.TabStop = false;
+            // 
+            // mob3
+            // 
+            mob3.AccessibleName = "TeleportTop";
+            mob3.BackColor = Color.Transparent;
+            mob3.BackgroundImageLayout = ImageLayout.Stretch;
+            mob3.Image = (Image)resources.GetObject("mob3.Image");
+            mob3.Location = new Point(671, 21);
+            mob3.Name = "mob3";
+            mob3.Size = new Size(89, 78);
+            mob3.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob3.TabIndex = 71;
+            mob3.TabStop = false;
+            // 
+            // pictureBox29
+            // 
+            pictureBox29.Location = new Point(468, -3);
+            pictureBox29.Name = "pictureBox29";
+            pictureBox29.Size = new Size(554, 37);
+            pictureBox29.TabIndex = 72;
+            pictureBox29.TabStop = false;
+            // 
             // CrestfallCityForm8
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -351,6 +406,10 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1424, 985);
+            Controls.Add(mob3);
+            Controls.Add(pictureBox29);
+            Controls.Add(mob1);
+            Controls.Add(mob2);
             Controls.Add(SideQuest);
             Controls.Add(Merchant);
             Controls.Add(pictureBox28);
@@ -382,8 +441,9 @@
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
+            DoubleBuffered = true;
             Name = "CrestfallCityForm8";
-            Text = "CrestfallCityForm8";
+            Text = "dd";
             Load += CrestfallCityForm8_Load;
             KeyDown += CrestfallCity_KeyDown_1;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -417,6 +477,10 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox28).EndInit();
             ((System.ComponentModel.ISupportInitialize)Merchant).EndInit();
             ((System.ComponentModel.ISupportInitialize)SideQuest).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox29).EndInit();
             ResumeLayout(false);
         }
 
@@ -453,5 +517,9 @@
         private PictureBox pictureBox28;
         private PictureBox Merchant;
         private PictureBox SideQuest;
+        private PictureBox mob2;
+        private PictureBox mob1;
+        private PictureBox mob3;
+        private PictureBox pictureBox29;
     }
 }

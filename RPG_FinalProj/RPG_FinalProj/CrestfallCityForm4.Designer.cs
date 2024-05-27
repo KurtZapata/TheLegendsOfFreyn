@@ -54,6 +54,8 @@
             pictureBox22 = new PictureBox();
             SideQuest = new PictureBox();
             pictureBox23 = new PictureBox();
+            mob1 = new PictureBox();
+            pictureBox24 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)Player).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -79,12 +81,14 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox22).BeginInit();
             ((System.ComponentModel.ISupportInitialize)SideQuest).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox23).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox24).BeginInit();
             SuspendLayout();
             // 
             // Player
             // 
             Player.BackColor = SystemColors.ActiveCaption;
-            Player.Location = new Point(689, 859);
+            Player.Location = new Point(688, 652);
             Player.Name = "Player";
             Player.Size = new Size(35, 35);
             Player.TabIndex = 0;
@@ -283,6 +287,27 @@
             pictureBox23.TabIndex = 24;
             pictureBox23.TabStop = false;
             // 
+            // mob1
+            // 
+            mob1.AccessibleName = "TeleportBottom";
+            mob1.BackColor = Color.Transparent;
+            mob1.BackgroundImageLayout = ImageLayout.Stretch;
+            mob1.Image = (Image)resources.GetObject("mob1.Image");
+            mob1.Location = new Point(671, 895);
+            mob1.Name = "mob1";
+            mob1.Size = new Size(89, 78);
+            mob1.SizeMode = PictureBoxSizeMode.StretchImage;
+            mob1.TabIndex = 73;
+            mob1.TabStop = false;
+            // 
+            // pictureBox24
+            // 
+            pictureBox24.Location = new Point(20, 958);
+            pictureBox24.Name = "pictureBox24";
+            pictureBox24.Size = new Size(1441, 50);
+            pictureBox24.TabIndex = 74;
+            pictureBox24.TabStop = false;
+            // 
             // CrestfallCityForm4
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -290,6 +315,8 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1424, 985);
+            Controls.Add(mob1);
+            Controls.Add(pictureBox24);
             Controls.Add(pictureBox23);
             Controls.Add(SideQuest);
             Controls.Add(pictureBox22);
@@ -345,6 +372,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox22).EndInit();
             ((System.ComponentModel.ISupportInitialize)SideQuest).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox23).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mob1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox24).EndInit();
             ResumeLayout(false);
         }
 
@@ -375,5 +404,7 @@
         private PictureBox pictureBox22;
         private PictureBox SideQuest;
         private PictureBox pictureBox23;
+        private PictureBox mob1;
+        private PictureBox pictureBox24;
     }
 }

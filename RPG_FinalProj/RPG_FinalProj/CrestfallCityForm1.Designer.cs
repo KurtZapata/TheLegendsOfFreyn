@@ -288,7 +288,7 @@
             mob2.BackColor = Color.Transparent;
             mob2.BackgroundImageLayout = ImageLayout.Stretch;
             mob2.Image = (Image)resources.GetObject("mob2.Image");
-            mob2.Location = new Point(1340, 432);
+            mob2.Location = new Point(1340, 490);
             mob2.Name = "mob2";
             mob2.Size = new Size(89, 78);
             mob2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -336,7 +336,6 @@
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(Player);
-            Cursor = Cursors.Arrow;
             DoubleBuffered = true;
             Name = "CrestfallCityForm1";
             Text = "CrestfallCityForm1";
