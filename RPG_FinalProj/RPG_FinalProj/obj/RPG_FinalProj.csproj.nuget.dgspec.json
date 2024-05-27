@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitHub\\ComProg_FinalProj\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\RPG_FinalProj.csproj": {}
+    "C:\\Users\\Kurt\\Desktop\\COMPROG\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\RPG_FinalProj.csproj": {}
   },
   "projects": {
-    "E:\\GitHub\\ComProg_FinalProj\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\RPG_FinalProj.csproj": {
+    "C:\\Users\\Kurt\\Desktop\\COMPROG\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\RPG_FinalProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\ComProg_FinalProj\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\RPG_FinalProj.csproj",
+        "projectUniqueName": "C:\\Users\\Kurt\\Desktop\\COMPROG\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\RPG_FinalProj.csproj",
         "projectName": "RPG_FinalProj",
-        "projectPath": "E:\\GitHub\\ComProg_FinalProj\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\RPG_FinalProj.csproj",
-        "packagesPath": "C:\\Users\\Alyx\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\ComProg_FinalProj\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\obj\\",
+        "projectPath": "C:\\Users\\Kurt\\Desktop\\COMPROG\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\RPG_FinalProj.csproj",
+        "packagesPath": "C:\\Users\\Kurt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kurt\\Desktop\\COMPROG\\TheLegendsOfFreyn\\RPG_FinalProj\\RPG_FinalProj\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alyx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kurt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
