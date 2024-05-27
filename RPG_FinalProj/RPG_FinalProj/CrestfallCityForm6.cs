@@ -20,12 +20,32 @@ namespace RPG_FinalProj
         PictureBox[] mob = new PictureBox[4];
         int[,] moblocation = new int[4, 4];
         string[] mobnames = new string[4];
-
+        Label[] itemlb = new Label[9];
+        PictureBox[] item = new PictureBox[9];
         public CrestfallCityForm6()
         {
             InitializeComponent();
             _items = Program.items;
+            item1.Tag = 0;
+            item2.Tag = 1;
+            item3.Tag = 2;
+            item4.Tag = 3;
+            item5.Tag = 4;
+            item6.Tag = 5;
+            item7.Tag = 6;
+            item8.Tag = 7;
+            item9.Tag = 8;
 
+            // Assign the same event handler to each button
+            item1.Click += new EventHandler(Item_Click);
+            item2.Click += new EventHandler(Item_Click);
+            item3.Click += new EventHandler(Item_Click);
+            item4.Click += new EventHandler(Item_Click);
+            item5.Click += new EventHandler(Item_Click);
+            item6.Click += new EventHandler(Item_Click);
+            item7.Click += new EventHandler(Item_Click);
+            item8.Click += new EventHandler(Item_Click);
+            item9.Click += new EventHandler(Item_Click);
         }
         private void TeleportChecker(int[] newPosition, int[,] moblocation, string[] mob)
         {
@@ -104,6 +124,25 @@ namespace RPG_FinalProj
 
         private void CrestfallCityForm6_Load(object sender, EventArgs e)
         {
+            item[0] = item1;
+            item[1] = item2;
+            item[2] = item3;
+            item[3] = item4;
+            item[4] = item5;
+            item[5] = item6;
+            item[6] = item7;
+            item[7] = item8;
+            item[8] = item9;
+
+            itemlb[0] = itemlb1;
+            itemlb[1] = itemlb2;
+            itemlb[2] = itemlb3;
+            itemlb[3] = itemlb4;
+            itemlb[4] = itemlb5;
+            itemlb[5] = itemlb6;
+            itemlb[6] = itemlb7;
+            itemlb[7] = itemlb8;
+            itemlb[8] = itemlb9;
             Player.Location = new Point(Program.items.location[0], Program.items.location[1]);
 
             for (int i = 1; i <= 100; i++)
@@ -190,6 +229,90 @@ namespace RPG_FinalProj
             {
 
             }
+        }
+
+        int[] itemindex;
+        string[] itemname;
+        int[] itemquan;
+        int starting = 0;
+
+        public void printitems(int starting)
+        {
+            for (int x = 0; x < item.Length; x++)
+            {
+                itemlb[x].Text = "";
+                item[x].BackColor = Color.White;
+            }
+            for (int x = 0; x < itemlb.Length; x++)
+            {
+                if (itemlb[x].Text == "" && itemindex[x + starting] != 0)
+                {
+                    itemlb[x].Text = itemquan[itemindex[x + starting]].ToString();
+                    item[x].BackColor = Color.Black;
+                }
+            }
+        }
+
+        private void Less_Click(object sender, EventArgs e)
+        {
+            if (starting != 0)
+            {
+                starting -= 3;
+                printitems(starting);
+            }
+        }
+
+        private void More_Click(object sender, EventArgs e)
+        {
+            if (starting + 9 != 15)
+            {
+                starting += 3;
+                printitems(starting);
+            }
+        }
+        int select, current;
+        private void Item_Click(object sender, EventArgs e)
+        {
+            PictureBox clickedButton = sender as PictureBox;
+            if (clickedButton != null)
+            {
+                select = (int)clickedButton.Tag;
+                current = itemindex[select + starting];
+                select1.Text = itemquan[current].ToString();
+            }
+        }
+
+        private void UseItem_Click(object sender, EventArgs e)
+        {
+            if (current != 0)
+            {
+                Program.items.itemuse(current);
+            }
+        }
+
+        private void OPEN_Click(object sender, EventArgs e)
+        {
+            panel1.Visible = true;
+            itemname = Program.items.name;
+            itemquan = Program.items.quan;
+            LocItems item = new LocItems();
+            itemindex = item.availableItems();
+            printitems(starting);
+
+            if (starting == 0 && itemindex[9] == 0)
+            {
+                Less.Enabled = false;
+                More.Enabled = false;
+            }
+            else
+            {
+                More.Enabled = true;
+            }
+        }
+
+        private void pictureBox47_Click(object sender, EventArgs e)
+        {
+            panel1.Visible = false;
         }
     }
 }
