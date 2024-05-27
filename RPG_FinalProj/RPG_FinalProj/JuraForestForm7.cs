@@ -336,7 +336,10 @@ namespace RPG_FinalProj
 
         private void UseItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(itemname[current]);
+            if (current != 0)
+            {
+                Program.items.itemuse(current);
+            }
         }
 
         private void OPEN_Click(object sender, EventArgs e)
