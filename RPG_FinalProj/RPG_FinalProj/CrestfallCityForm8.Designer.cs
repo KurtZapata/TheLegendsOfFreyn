@@ -58,7 +58,6 @@
             pictureBox26 = new PictureBox();
             pictureBox27 = new PictureBox();
             pictureBox28 = new PictureBox();
-            Merchant = new PictureBox();
             mob4 = new PictureBox();
             mob2 = new PictureBox();
             mob1 = new PictureBox();
@@ -141,7 +140,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox26).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox27).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox28).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)Merchant).BeginInit();
             ((System.ComponentModel.ISupportInitialize)mob4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)mob2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)mob1).BeginInit();
@@ -407,15 +405,6 @@
             pictureBox28.Size = new Size(1088, 37);
             pictureBox28.TabIndex = 28;
             pictureBox28.TabStop = false;
-            // 
-            // Merchant
-            // 
-            Merchant.BackColor = Color.Red;
-            Merchant.Location = new Point(1015, 818);
-            Merchant.Name = "Merchant";
-            Merchant.Size = new Size(35, 35);
-            Merchant.TabIndex = 29;
-            Merchant.TabStop = false;
             // 
             // mob4
             // 
@@ -765,7 +754,7 @@
             mob5.BackColor = Color.Transparent;
             mob5.BackgroundImageLayout = ImageLayout.Stretch;
             mob5.Image = (Image)resources.GetObject("mob5.Image");
-            mob5.Location = new Point(991, 415);
+            mob5.Location = new Point(991, 764);
             mob5.Name = "mob5";
             mob5.Size = new Size(125, 124);
             mob5.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -797,7 +786,7 @@
             Shop.Controls.Add(sell2);
             Shop.Controls.Add(sell1);
             Shop.Controls.Add(Buy);
-            Shop.Location = new Point(926, 186);
+            Shop.Location = new Point(988, 547);
             Shop.Name = "Shop";
             Shop.Size = new Size(475, 448);
             Shop.TabIndex = 82;
@@ -1013,7 +1002,6 @@
             Controls.Add(mob1);
             Controls.Add(mob2);
             Controls.Add(mob4);
-            Controls.Add(Merchant);
             Controls.Add(pictureBox28);
             Controls.Add(pictureBox27);
             Controls.Add(pictureBox26);
@@ -1077,7 +1065,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox26).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox27).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox28).EndInit();
-            ((System.ComponentModel.ISupportInitialize)Merchant).EndInit();
             ((System.ComponentModel.ISupportInitialize)mob4).EndInit();
             ((System.ComponentModel.ISupportInitialize)mob2).EndInit();
             ((System.ComponentModel.ISupportInitialize)mob1).EndInit();
@@ -1145,7 +1132,6 @@
         private PictureBox pictureBox26;
         private PictureBox pictureBox27;
         private PictureBox pictureBox28;
-        private PictureBox Merchant;
         private PictureBox mob4;
         private PictureBox mob2;
         private PictureBox mob1;
